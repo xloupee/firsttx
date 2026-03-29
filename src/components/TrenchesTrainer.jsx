@@ -49,6 +49,12 @@ const THEMES = [
   { kw:"frog",emoji:"🐸",de:["🐍","🦎","🐢","🐊","🦖","🐛","🦗","🐞","🦋","🐝"],names:["FrogCoin","FROG","FrogToken","FRGX"],decoys:["SnakeCoin","LizardTkn","TurtleDAO","CrocCoin","DinoToken","GECKO","ToadCoin","NewtDAO","BugCoin","BeetleTkn"],tweets:[{text:"Frogs taking over the timeline again 🐸",user:"MemeRadar",handle:"@memeradar",time:"6s"},{text:"The frog meta is BACK 🐸🐸",user:"AlphaFrog",handle:"@alphafrog",time:"28s"},{text:"Frog memes everywhere. Crystal clear.",user:"DegenPulse",handle:"@degenpulse",time:"11s"}]},
   { kw:"penguin",emoji:"🐧",de:["🦅","🦆","🦉","🐦","🦜","🕊️","🦩","🐔","🦚","🦢"],names:["PenguinCoin","PENGUIN","PenguinDAO","PNGX"],decoys:["EagleCoin","DuckToken","OwlDAO","BirdCoin","ParrotTkn","DOVE","FlamingoC","ChickenDAO","PeacockCoin","SwanTkn"],tweets:[{text:"Penguins trending everywhere 🐧 Load up.",user:"TrendAlpha",handle:"@trendalpha",time:"15s"},{text:"Antarctic penguin population hits record.",user:"SciAlerts",handle:"@scialerts",time:"38s"},{text:"Penguin szn is here. Don't sleep. 🐧🐧",user:"NarrativeBot",handle:"@narrativebot",time:"4s"}]},
   { kw:"moon",emoji:"🌕",de:["⭐","☀️","🪐","🌍","💫","🌌","☄️","🔭","🌟","✨"],names:["MoonCoin","MOON","MoonToken","MOONX"],decoys:["StarCoin","SunToken","PlanetDAO","EarthCoin","CosmosTkn","GALAXY","CometCoin","NovaCoin","AuroraCoin","NeptuneTkn"],tweets:[{text:"Going to the MOON tonight 🌕 Buckle up.",user:"MoonBoi",handle:"@moonboi",time:"2s"},{text:"Lunar eclipse — moon mania 🌙",user:"AstroAlerts",handle:"@astroalerts",time:"25s"},{text:"Moon content flooding every timeline.",user:"NarrativeHQ",handle:"@narrativehq",time:"18s"}]},
+  { kw:"cat",emoji:"🐈",de:["🐕","🐻","🐰","🦊","🐺","🐹","🦁","🐯","🐼","🐵"],names:["CatCoin","CAT","CatToken","CATX"],decoys:["DogCoin","BearToken","BunnyDAO","FoxCoin","WolfToken","HAMSTER","LionCoin","TigerDAO","PandaCoin","MonkeyTkn"],tweets:[{text:"Cat meta heating up again 🐈",user:"MemeRadar",handle:"@memeradar",time:"9s"},{text:"Cats dominating For You right now.",user:"TrendDesk",handle:"@trenddesk",time:"21s"},{text:"Feline narrative confirmed. 🐾",user:"AlphaCats",handle:"@alphacats",time:"36s"}]},
+  { kw:"shark",emoji:"🦈",de:["🐋","🐬","🐙","🦑","🐟","🐠","🦀","🪼","🐡","🦐"],names:["SharkCoin","SHARK","SharkDAO","SHRK"],decoys:["WhaleCoin","DolphinTkn","OctoDAO","SquidCoin","FishToken","REEF","CrabCoin","JellyDAO","PufferCoin","ShrimpTkn"],tweets:[{text:"Sharks are circling low caps 🦈",user:"WhaleScope",handle:"@whalescope",time:"12s"},{text:"Big wallets just rotated into shark names.",user:"OnchainEdge",handle:"@onchainedge",time:"28s"},{text:"Shark szn back on CT. Teeth out.",user:"TrenchAlpha",handle:"@trenchaIpha",time:"44s"}]},
+  { kw:"coffee",emoji:"☕",de:["🥤","🧋","🍵","🥛","🍶","🧃","🍺","🍷","🥂","🧉"],names:["CoffeeCoin","COFFEE","BrewToken","BREWX"],decoys:["SodaCoin","BobaToken","TeaDAO","MilkCoin","JuiceToken","LATTE","AleCoin","WineDAO","ToastCoin","MateTkn"],tweets:[{text:"Coffee narrative waking up the timeline ☕",user:"MorningCalls",handle:"@morningcalls",time:"5s"},{text:"Caffeine coins pumping before NY open.",user:"MarketWake",handle:"@marketwake",time:"19s"},{text:"Brew meta everywhere. Don't fade.",user:"DegenBrew",handle:"@degenbrew",time:"33s"}]},
+  { kw:"robot",emoji:"🤖",de:["🛸","📡","💻","🧠","🔋","⚙️","🛰️","🦾","🧬","🧪"],names:["RobotCoin","ROBOT","MechDAO","RBTX"],decoys:["UFOToken","SignalCoin","CodeToken","BrainDAO","BatteryCoin","GEAR","SatelliteCoin","CyberDAO","GeneCoin","LabTkn"],tweets:[{text:"AI bots are printing again 🤖",user:"AIPulse",handle:"@aipulse",time:"7s"},{text:"Robot tags trending after open-source launch.",user:"TechWire",handle:"@techwire",time:"23s"},{text:"Machine narrative is loud tonight.",user:"AlphaMech",handle:"@alphamech",time:"41s"}]},
+  { kw:"volcano",emoji:"🌋",de:["🌊","🏔️","🧊","🌪️","☀️","🌧️","⚡","🌫️","🔥","🌈"],names:["VolcanoCoin","VOLCANO","LavaToken","LAVAX"],decoys:["WaveCoin","MountainDAO","IceToken","StormCoin","SunToken","RAIN","ThunderCoin","MistDAO","FlameCoin","ArcTkn"],tweets:[{text:"Volcano tokens erupting 🌋",user:"HeatMap",handle:"@heatmap",time:"11s"},{text:"Lava narrative just broke resistance.",user:"ChartSage",handle:"@chartsage",time:"26s"},{text:"Magma memes all over X right now.",user:"NarrativeNow",handle:"@narrativenow",time:"39s"}]},
+  { kw:"ghost",emoji:"👻",de:["💀","🧟","🧛","🕷️","🦇","🧙","🪄","🌫️","🌙","🕯️"],names:["GhostCoin","GHOST","PhantomDAO","GHSTX"],decoys:["SkullCoin","ZombieToken","VampDAO","SpiderCoin","BatToken","WITCH","MagicCoin","FogDAO","MoonShade","CandleTkn"],tweets:[{text:"Ghost narrative haunting CT 👻",user:"NightAlpha",handle:"@nightalpha",time:"6s"},{text:"Phantom names catching bids into close.",user:"AfterHours",handle:"@afterhours",time:"17s"},{text:"Spooky season came early on chain.",user:"MemeDesk",handle:"@memedesk",time:"29s"}]},
 ];
 
 const FILLER=[
@@ -63,8 +69,16 @@ const FILLER=[
   {text:"this is the play. not financial advice.",user:"whale_alert",handle:"@whale_alert_",time:"30s",reply:"@pumpdotfun",
     quote:{user:"pump.fun",handle:"@pumpdotfun",time:"12m",verified:true,text:"Introducing graduated tokens — LP migration is now live."}},
   {text:"someone just aped $50K into a 2 minute old token lol",user:"onchain_lens",handle:"@onchain_lens",time:"45s",verified:true,media:{type:"image"}},
+  {text:"Volume divergence on memescope. Fast rotations everywhere.",user:"FlowScanner",handle:"@flowscanner",time:"22s",verified:true},
+  {text:"this pair launched 90s ago and already at 4k holders??",user:"chain_hunter",handle:"@chain_hunter",time:"11s",media:{type:"image"}},
+  {text:"Narratives flipping every 10 minutes today. Stay fluid.",user:"MetaShift",handle:"@metashift",time:"3m"},
+  {text:"whale wallet 9Z...k7 bought then sold in 47s. brutal.",user:"TapeReader",handle:"@tapereader",time:"1m",verified:true},
+  {text:"not your keys not your conviction",user:"oldman_ct",handle:"@oldmanct",time:"8m"},
+  {text:"Holders climbing but socials are dead. careful.",user:"RiskDesk",handle:"@riskdesk",time:"2m",warn:true},
+  {text:"I only trust entries after two clean pullbacks.",user:"price_action_ser",handle:"@priceactionser",time:"5m"},
+  {text:"new token launched with website + docs + roadmap. rare.",user:"launch_watch",handle:"@launchwatch",time:"48s",media:{type:"image"}},
 ];
-const NOISE_TICKERS=["BONK","WIF","PEPE","BRETT","ANDY","CHAD","GIGA","SMOL","BASED","SEND","COPE","SLERF","MEW","MYRO","SAMO","TURBO","SNEK","HONK","NEIRO","GOAT","PNUT","SPX","MOG","TOSHI","SIGMA","GRIND","PUMP","YOLO","WAGMI","NGMI","HODL","MONKE","VIBE"];
+const NOISE_TICKERS=["BONK","WIF","PEPE","BRETT","ANDY","CHAD","GIGA","SMOL","BASED","SEND","COPE","SLERF","MEW","MYRO","SAMO","TURBO","SNEK","HONK","NEIRO","GOAT","PNUT","SPX","MOG","TOSHI","SIGMA","GRIND","PUMP","YOLO","WAGMI","NGMI","HODL","MONKE","VIBE","AURA","FROST","KONG","JOLT","DUST","WAVE","BYTE","NOVA","ATOM","FLIP","FOMO","RUSH"];
 const NOISE_EMOJIS=["🐶","🐱","🐻","🦊","🐸","🐧","🎭","🗿","🧠","💊","🫡","👑","💀","🤡","🎪","🦍","🐍","🦈","🐋","🌊","🔮","🪙","💰","🎰","⭐","🌶️","🍄","🧊","🫧","🪐","☄️","🌋","🦎","🎯","⚡","🔥","💎"];
 
 const rA=()=>{const c="ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz123456789";let s="";for(let i=0;i<3;i++)s+=c[Math.floor(Math.random()*c.length)];return s+".."+c[Math.floor(Math.random()*c.length)]+"mp";};
@@ -77,11 +91,11 @@ const rT2=()=>`${Math.floor(Math.random()*30)}%`;const rS2=()=>({web:Math.random
 
 function genNoiseToken(){return{name:pick(NOISE_TICKERS),emoji:pick(NOISE_EMOJIS),isCorrect:false,isTrap:false,isNoise:true,id:`noise-${Date.now()}-${Math.random()}`,addr:rA(),handle:rH2(),vol:rV(),mcap:rM2(),holders:rHo(),age:rAg(),devPct:rDP(),devAge:rDA(),buySell:rBS(),top10:rT2(),socials:rS2(),hasDS:Math.random()>.5};}
 
-function genRound(num, seed = null) {
+function genRound(num, seed = null, maxDiffCap = 10) {
   const rng = seed !== null ? seededRng(seed + num * 7919) : null;
   const _pick = rng ? (a) => seededPick(a, rng) : pick;
   const _shuf = rng ? (a) => seededShuffle(a, rng) : shuffle;
-  const diff=Math.min(10,Math.floor(num/2)+1),pc=Math.round(Math.min(5+diff*1.5,20));
+  const diff=maxDiffCap<=3?Math.min(maxDiffCap,num+1):Math.min(maxDiffCap,Math.floor(num/2)+1),pc=Math.round(Math.min(5+diff*1.5,20));
   const th=_pick(THEMES),tw=_pick(th.tweets),cn=_pick(th.names);
   const ad=[...th.decoys,...NOISE_TICKERS.slice(0,10)],ae=[...th.de,...NOISE_EMOJIS.slice(0,10)];
   const ud=_shuf(ad).slice(0,pc-1),ue=_shuf(ae).slice(0,pc-1);
@@ -92,7 +106,7 @@ function genRound(num, seed = null) {
   return{tweet:tw,pairs,correctName:cn,correctEmoji:th.emoji,fillers:shuffle(FILLER).slice(0,4),spawnDelay:Math.max(600-diff*55,80),diff,noiseInterval:diff>=8?600:diff>=5?1000:diff>=3?1800:3000};
 }
 
-function getRank(avgMs){if(avgMs===null)return{tier:"UNRANKED",color:"#4a5568",glow:"none",icon:"—"};const s=avgMs/1000;if(s<.45)return{tier:"CHALLENGER",color:"#f56565",glow:"0 0 18px rgba(245,101,101,0.35)",icon:"♛"};if(s<.6)return{tier:"DIAMOND",color:"#63b3ed",glow:"0 0 16px rgba(99,179,237,0.3)",icon:"◆"};if(s<.8)return{tier:"GOLD",color:"#ecc94b",glow:"0 0 14px rgba(236,201,75,0.3)",icon:"★"};if(s<1)return{tier:"SILVER",color:"#a0aec0",glow:"0 0 10px rgba(160,174,192,0.2)",icon:"☆"};return{tier:"BRONZE",color:"#c77c48",glow:"0 0 10px rgba(199,124,72,0.25)",icon:"●"};}
+function getRank(avgMs){if(avgMs===null)return{tier:"UNRANKED",color:"#4a5568",glow:"none",icon:"—"};const s=avgMs/1000;if(s<.65)return{tier:"CHALLENGER",color:"#f56565",glow:"0 0 18px rgba(245,101,101,0.35)",icon:"♛"};if(s<.85)return{tier:"DIAMOND",color:"#63b3ed",glow:"0 0 16px rgba(99,179,237,0.3)",icon:"◆"};if(s<1.05)return{tier:"GOLD",color:"#ecc94b",glow:"0 0 14px rgba(236,201,75,0.3)",icon:"★"};if(s<1.35)return{tier:"SILVER",color:"#a0aec0",glow:"0 0 10px rgba(160,174,192,0.2)",icon:"☆"};return{tier:"BRONZE",color:"#c77c48",glow:"0 0 10px rgba(199,124,72,0.25)",icon:"●"};}
 function getRC(ms){if(!ms)return"#f56565";const s=ms/1000;if(s<.5)return"#48bb78";if(s<.8)return"#68d391";if(s<1.2)return"#ecc94b";if(s<2)return"#ed8936";return"#f56565";}
 const genCode=()=>{const c="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";let s="";for(let i=0;i<6;i++)s+=c[Math.floor(Math.random()*c.length)];return s;};
 
@@ -106,7 +120,12 @@ const C = {
   text: "#f1f5f9", textMuted: "#94a3b8", textDim: "#475569", textGhost: "#1e293b",
 };
 
+const MODE_KEYS = ["practice", "1v1", "profile"];
+const isModeKey = (value) => MODE_KEYS.includes(value);
+const normalizeModeKey = (value) => (isModeKey(value) ? value : "practice");
+
 const EMPTY_PROFILE_STATS = {
+  preferred_mode: "practice",
   practice_sessions: 0,
   practice_rounds: 0,
   practice_hits: 0,
@@ -123,10 +142,12 @@ const EMPTY_PROFILE_STATS = {
   duel_best_score: 0,
 };
 
-const PROFILE_SELECT = "user_id,practice_sessions,practice_rounds,practice_hits,practice_misses,practice_penalties,practice_best_time,practice_best_streak,duel_matches,duel_wins,duel_losses,duel_draws,duel_score_for,duel_score_against,duel_best_score";
+const PROFILE_SELECT = "user_id,preferred_mode,practice_sessions,practice_rounds,practice_hits,practice_misses,practice_penalties,practice_best_time,practice_best_streak,duel_matches,duel_wins,duel_losses,duel_draws,duel_score_for,duel_score_against,duel_best_score";
+const HISTORY_SELECT = "id,user_id,mode,outcome,score,opponent_score,rounds,accuracy_pct,best_time,best_streak,created_at";
 const normalizeProfileStats = (raw = {}) => ({
   ...EMPTY_PROFILE_STATS,
   ...raw,
+  preferred_mode: normalizeModeKey(raw?.preferred_mode),
   practice_sessions: Number(raw?.practice_sessions || 0),
   practice_rounds: Number(raw?.practice_rounds || 0),
   practice_hits: Number(raw?.practice_hits || 0),
@@ -142,13 +163,22 @@ const normalizeProfileStats = (raw = {}) => ({
   duel_score_against: Number(raw?.duel_score_against || 0),
   duel_best_score: Number(raw?.duel_best_score || 0),
 });
+const formatHistoryDate=(value)=>{
+  if(!value)return"—";
+  const d=new Date(value);
+  if(Number.isNaN(d.getTime()))return"—";
+  const diffMs=Date.now()-d.getTime();
+  if(diffMs>=0&&diffMs<60_000)return"just now";
+  if(diffMs>=0&&diffMs<3_600_000)return`${Math.max(1,Math.floor(diffMs/60_000))}m ago`;
+  return d.toLocaleString();
+};
 
 /* ═══════════════════════════════════════════
    SHARED UI COMPONENTS
 ═══════════════════════════════════════════ */
 function HudStat({label,value,color,large}){return(<div style={{display:"flex",flexDirection:"column",alignItems:"center",padding:"0 8px",gap:2}}><span style={{fontSize:7,fontWeight:500,color:C.textDim,letterSpacing:2.5,textTransform:"uppercase"}}>{label}</span><span style={{fontSize:large?20:13,fontWeight:800,color:color||C.text,fontFamily:"var(--mono)",textShadow:large?`0 0 14px ${color}25`:"none",transition:"all 0.2s"}}>{value}</span></div>);}
 
-function ElapsedTimer({startTime,running}){const[el,setEl]=useState(0);const raf=useRef(null);useEffect(()=>{if(!startTime){setEl(0);return;}const tick=()=>{setEl(Date.now()-startTime);raf.current=requestAnimationFrame(tick);};raf.current=requestAnimationFrame(tick);return()=>cancelAnimationFrame(raf.current);},[startTime]);const s=el/1000;const col=s<1?C.green:s<2?C.greenBright:s<3?C.yellow:s<5?C.orange:C.red;return(<div style={{display:"flex",alignItems:"center",gap:7}}><div style={{position:"relative",width:40,height:40,flexShrink:0}}><svg width={40} height={40} style={{transform:"rotate(-90deg)"}}><circle cx={20} cy={20} r={17} fill="none" stroke={C.border} strokeWidth={2}/><circle cx={20} cy={20} r={17} fill="none" stroke={col} strokeWidth={2} strokeDasharray={`${Math.min(s/10,1)*106.8} 106.8`} strokeLinecap="round" style={{transition:"stroke 0.3s",filter:`drop-shadow(0 0 4px ${col}40)`}}/></svg><div style={{position:"absolute",inset:0,display:"flex",alignItems:"center",justifyContent:"center",fontSize:10,fontWeight:800,color:col,fontFamily:"var(--mono)"}}>{s.toFixed(1)}</div></div><div><div style={{fontSize:7,color:C.textDim,letterSpacing:2}}>ELAPSED</div><div style={{fontSize:12,fontWeight:800,color:col,fontFamily:"var(--mono)",transition:"color 0.3s"}}>{s.toFixed(2)}s</div></div></div>);}
+function ElapsedTimer({startTime,running}){const[el,setEl]=useState(0);const raf=useRef(null);useEffect(()=>{if(!startTime){setEl(0);return;}if(!running){setEl(Date.now()-startTime);return;}const tick=()=>{setEl(Date.now()-startTime);raf.current=requestAnimationFrame(tick);};raf.current=requestAnimationFrame(tick);return()=>cancelAnimationFrame(raf.current);},[startTime,running]);const s=el/1000;const col=s<1?C.green:s<2?C.greenBright:s<3?C.yellow:s<5?C.orange:C.red;return(<div style={{display:"flex",alignItems:"center",gap:7}}><div style={{position:"relative",width:40,height:40,flexShrink:0}}><svg width={40} height={40} style={{transform:"rotate(-90deg)"}}><circle cx={20} cy={20} r={17} fill="none" stroke={C.border} strokeWidth={2}/><circle cx={20} cy={20} r={17} fill="none" stroke={col} strokeWidth={2} strokeDasharray={`${Math.min(s/10,1)*106.8} 106.8`} strokeLinecap="round" style={{transition:"stroke 0.3s",filter:`drop-shadow(0 0 4px ${col}40)`}}/></svg><div style={{position:"absolute",inset:0,display:"flex",alignItems:"center",justifyContent:"center",fontSize:10,fontWeight:800,color:col,fontFamily:"var(--mono)"}}>{s.toFixed(1)}</div></div><div><div style={{fontSize:7,color:C.textDim,letterSpacing:2}}>ELAPSED</div><div style={{fontSize:12,fontWeight:800,color:col,fontFamily:"var(--mono)",transition:"color 0.3s"}}>{s.toFixed(2)}s</div></div></div>);}
 
 /* avatar color from name string */
 const avatarGrad=(name)=>{let h=0;for(let i=0;i<name.length;i++)h=name.charCodeAt(i)+((h<<5)-h);const hue=Math.abs(h)%360;return`linear-gradient(135deg,hsl(${hue},55%,45%),hsl(${(hue+40)%360},50%,35%))`;};
@@ -226,7 +256,7 @@ function TokenRow({coin,txState,onBuy,spawned,revealed,clickedId,showCorrect}){
   const wc=clickedId===coin.id,iw=wc&&!coin.isCorrect;
   const isRevealCorrect=showCorrect&&revealed&&coin.isCorrect;
   let bl="transparent",bg="transparent";if(iw){bl=C.red;bg="rgba(245,101,101,0.03)";}else if(isRevealCorrect){bl=C.green;bg="rgba(72,187,120,0.04)";}
-  const ia=txState==="active"&&!revealed,iwa=(txState==="waiting"||txState==="spawning")&&!revealed,sb=!revealed&&!coin.isNoise;
+  const ia=!revealed,sb=!revealed;
   const buyBtnStyle=(active,isMain)=>({display:"flex",alignItems:"center",justifyContent:"center",gap:3,padding:"0",background:"transparent",border:"none",color:active&&isMain?C.green:C.textDim,fontSize:active&&isMain?11:10,fontWeight:active&&isMain?800:600,cursor:active&&isMain?"pointer":"default",fontFamily:"var(--mono)",width:"100%",height:"100%",transition:"all 0.12s"});
 
   return(<div style={{display:"flex",alignItems:"flex-start",padding:"8px 8px",borderBottom:`1px solid ${C.border}`,borderLeft:`2px solid ${bl}`,background:bg,opacity:spawned?1:0,maxHeight:spawned?200:0,transform:spawned?"none":"translateY(-8px)",transition:"opacity 0.3s,transform 0.3s,max-height 0.3s",minHeight:spawned?86:0,overflow:"hidden",gap:8}}>
@@ -268,19 +298,13 @@ function TokenRow({coin,txState,onBuy,spawned,revealed,clickedId,showCorrect}){
       </div>
     </div>
 
-    {/* Chart boxes + Buy buttons */}
+    {/* TX button */}
     <div style={{display:"flex",gap:4,flexShrink:0}}>
-      {/* Box 1: 3.30 */}
-      <div style={{width:80,height:64,borderRadius:6,background:C.bgCard,border:`1px solid ${ia&&sb?C.borderLight:C.border}`,display:"flex",flexDirection:"column",overflow:"hidden",transition:"border-color 0.2s"}}>
+      <div style={{width:108,height:64,borderRadius:6,background:C.bgCard,border:`1px solid ${ia&&sb?C.borderLight:C.border}`,display:"flex",flexDirection:"column",overflow:"hidden",transition:"border-color 0.2s"}}>
         <div style={{flex:1}}/>
         {sb?(<button onClick={e=>onBuy(coin,e)} style={buyBtnStyle(ia,true)}>
-          {iwa?<><span className="blink-dot"/>WAIT</>:ia?<><span style={{color:C.yellow,fontSize:9}}>⚡</span> TX NOW</>:<><span style={{color:C.yellow,fontSize:9}}>⚡</span> 3.30</>}
+          <><span style={{color:C.yellow,fontSize:9}}>⚡</span> TX NOW</>
         </button>):(<div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:3,color:C.textDim,fontSize:10,height:"100%"}}><span style={{color:C.yellow,fontSize:9}}>⚡</span> 3.30</div>)}
-      </div>
-      {/* Box 2: 8.00 */}
-      <div style={{width:80,height:64,borderRadius:6,background:C.bgCard,border:`1px solid ${C.border}`,display:"flex",flexDirection:"column",overflow:"hidden"}}>
-        <div style={{flex:1}}/>
-        <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:3,color:C.textDim,fontSize:10,height:"100%"}}><span style={{color:C.yellow,fontSize:9}}>⚡</span> 8.00</div>
       </div>
     </div>
 
@@ -303,7 +327,7 @@ function PerfPanel({stats,history}){const avg=stats.times.length>0?stats.times.r
 /* ═══════════════════════════════════════════
    SESSION SUMMARY
 ═══════════════════════════════════════════ */
-function SessionSummary({stats,history,onBack}){
+function SessionSummary({stats,history,onBack,onProfile}){
   const avg=stats.times.length>0?stats.times.reduce((a,b)=>a+b,0)/stats.times.length:null;const rank=getRank(avg);
   const acc=(stats.hits+stats.misses+stats.penalties)>0?Math.round((stats.hits/(stats.hits+stats.misses+stats.penalties))*100):0;
   const slowest=stats.times.length>0?Math.max(...stats.times):null;
@@ -318,14 +342,18 @@ function SessionSummary({stats,history,onBack}){
       {[["SCORE",stats.score,C.green],["ACCURACY",`${acc}%`,acc>=80?C.green:acc>=50?C.yellow:C.red],["BEST STREAK",stats.bestStreak,C.orange],["FASTEST",stats.bestTime!==null?`${(stats.bestTime/1000).toFixed(3)}s`:"—",C.cyan],["SLOWEST",slowest!==null?`${(slowest/1000).toFixed(2)}s`:"—",C.red],["MISSES",stats.misses+stats.penalties,C.red]].map(([l,v,c])=>(<div key={l} className="glass-card" style={{padding:"10px 12px",textAlign:"center"}}><div style={{fontSize:7,color:C.textDim,letterSpacing:2,marginBottom:4}}>{l}</div><div style={{fontSize:16,fontWeight:900,color:c,fontFamily:"var(--mono)"}}>{v}</div></div>))}
     </div>
     <div className="glass-card" style={{marginBottom:20}}><div style={{fontSize:8,color:C.textDim,letterSpacing:2,marginBottom:12}}>RT DISTRIBUTION</div><div style={{display:"flex",alignItems:"flex-end",gap:6,height:80}}>{bc.map(b=>(<div key={b.l} style={{flex:1,display:"flex",flexDirection:"column",alignItems:"center",gap:4}}><span style={{fontSize:9,fontWeight:700,color:b.c,fontFamily:"var(--mono)"}}>{b.n}</span><div style={{width:"100%",height:`${Math.max(4,(b.n/mx)*60)}px`,borderRadius:4,background:`linear-gradient(180deg,${b.c},${b.c}60)`}}/><span style={{fontSize:7.5,color:C.textDim}}>{b.l}</span></div>))}</div></div>
-    <button onClick={onBack} className="btn-primary btn-green">Back to Menu</button>
+    <div style={{display:"flex",gap:10}}>
+      <button onClick={onBack} className="btn-primary btn-green" style={{flex:1}}>Back to Menu</button>
+      {onProfile&&<button onClick={onProfile} className="btn-primary btn-blue" style={{flex:1}}>Profile</button>}
+    </div>
   </div></div>);
 }
 
 /* ═══════════════════════════════════════════
    useGameEngine
 ═══════════════════════════════════════════ */
-function useGameEngine(startDiff=1,seed=null){
+function useGameEngine(startDiff=1,seed=null,maxDiffCap=10){
+  const FEED_MAX=40;
   const[stats,setStats]=useState({score:0,streak:0,bestStreak:0,bestTime:null,lastTime:null,hits:0,misses:0,penalties:0,times:[]});
   const[roundNum,setRoundNum]=useState(0);const[roundData,setRoundData]=useState(null);
   const[spawned,setSpawned]=useState(new Set());const[txState,setTxState]=useState("idle");
@@ -340,14 +368,12 @@ function useGameEngine(startDiff=1,seed=null){
   const armStartRef=useRef(null);const armRafRef=useRef(null);const armTimeoutRef=useRef(null);
   const spawnRef=useRef([]);const fbRef=useRef(null);const nextRef=useRef(null);
   const roundNumRef=useRef(0);const holsterPhaseRef=useRef("idle");const noiseRef=useRef(null);
-  const pausedRef=useRef(false);const timerStartRef=useRef(null);const timerRunningRef=useRef(false);const revealedRef=useRef(false);const pauseStartedRef=useRef(null);
+  const pausedRef=useRef(false);const revealedRef=useRef(false);const pauseStartedRef=useRef(null);
   const pausedSpawnQueueRef=useRef([]);
   const prevMultTier=useRef(0);const seedRef=useRef(seed);seedRef.current=seed;
   useEffect(()=>{roundNumRef.current=roundNum;},[roundNum]);
   useEffect(()=>{holsterPhaseRef.current=holsterPhase;},[holsterPhase]);
   useEffect(()=>{pausedRef.current=isPaused;},[isPaused]);
-  useEffect(()=>{timerStartRef.current=timerStart;},[timerStart]);
-  useEffect(()=>{timerRunningRef.current=timerRunning;},[timerRunning]);
   useEffect(()=>{revealedRef.current=revealed;},[revealed]);
   const mult=getMult(stats.streak);const multLabel=getMultLabel(stats.streak);const multTier=getMultTier(stats.streak);
   const multColor=multTier>=3?C.red:multTier>=2?C.orange:multTier>=1?C.yellow:C.textDim;
@@ -355,19 +381,29 @@ function useGameEngine(startDiff=1,seed=null){
   // Combo burst on multiplier tier change
   useEffect(()=>{if(multTier>prevMultTier.current&&multTier>0){SFX.combo();setComboBurst(multLabel);setTimeout(()=>setComboBurst(null),900);}prevMultTier.current=multTier;},[multTier,multLabel]);
   const clearAll=useCallback(()=>{spawnRef.current.forEach(clearTimeout);spawnRef.current=[];clearTimeout(fbRef.current);clearTimeout(nextRef.current);clearInterval(noiseRef.current);},[]);
+  const clampLiveFeed=useCallback((list)=>{
+    if(list.length<=FEED_MAX)return list;
+    const clipped=list.slice(0,FEED_MAX);
+    if(revealedRef.current)return clipped;
+    if(clipped.some(c=>c?.isCorrect))return clipped;
+    const correct=list.find(c=>c?.isCorrect);
+    if(!correct)return clipped;
+    clipped[clipped.length-1]=correct;
+    return clipped;
+  },[]);
   const flash=useCallback(c=>{setScreenFlash(c);setTimeout(()=>setScreenFlash(null),300);},[]);
   const shake=useCallback(()=>{setScreenShake(true);setTimeout(()=>setScreenShake(false),350);},[]);
   const showFB=useCallback((type,rt=null)=>{setFeedback({id:Date.now(),type,rt});clearTimeout(fbRef.current);fbRef.current=setTimeout(()=>setFeedback(null),1200);},[]);
-  const startNoiseFeed=useCallback(interval=>{clearInterval(noiseRef.current);noiseRef.current=setInterval(()=>{if(pausedRef.current)return;const n=genNoiseToken();setLiveFeed(p=>{const nx=[n,...p];return nx.length>40?nx.slice(0,40):nx;});setSpawned(p=>new Set([...p,n.id]));},interval);},[]);
-  const launchRound=useCallback(()=>{clearAll();setIsPaused(false);pausedRef.current=false;pauseStartedRef.current=null;pausedSpawnQueueRef.current=[];const num=roundNumRef.current,data=genRound(num+Math.max(0,startDiff-1)*2,seedRef.current);setRoundData(data);setSpawned(new Set());setRevealed(false);setClickedId(null);setShowCorrect(false);setTxState("spawning");setTweetVis(false);setPairsVis(false);setTimerRunning(false);setTimerStart(null);setHolsterPhase("live");setLiveFeed([]);setTimeout(()=>setTweetVis(true),100);setTimeout(()=>{setPairsVis(true);let si=0;const sn=()=>{if(si>=data.pairs.length){startNoiseFeed(data.noiseInterval);return;}const c=data.pairs[si];si++;if(pausedRef.current){pausedSpawnQueueRef.current.push(c);}else{setLiveFeed(p=>[c,...p]);setSpawned(p=>new Set([...p,c.id]));}const t=setTimeout(sn,data.spawnDelay);spawnRef.current.push(t);};sn();const dl=CFG.antiSpamMin+Math.random()*(CFG.antiSpamMax-CFG.antiSpamMin);setTimeout(()=>{setTxState("waiting");setTimeout(()=>{setTxState("active");setTimerRunning(true);setTimerStart(Date.now());},80);},dl);},400);},[clearAll,startNoiseFeed,startDiff]);
+  const startNoiseFeed=useCallback(interval=>{clearInterval(noiseRef.current);noiseRef.current=setInterval(()=>{if(pausedRef.current)return;const n=genNoiseToken();setLiveFeed(p=>clampLiveFeed([n,...p]));setSpawned(p=>new Set([...p,n.id]));},interval);},[clampLiveFeed]);
+  const launchRound=useCallback(()=>{clearAll();setIsPaused(false);pausedRef.current=false;pauseStartedRef.current=null;pausedSpawnQueueRef.current=[];const num=roundNumRef.current,data=genRound(num+Math.max(0,startDiff-1)*2,seedRef.current,maxDiffCap);setRoundData(data);setSpawned(new Set());setRevealed(false);setClickedId(null);setShowCorrect(false);setTxState("spawning");setTweetVis(false);setPairsVis(false);setTimerRunning(false);setTimerStart(null);setHolsterPhase("live");setLiveFeed([]);setTimeout(()=>setTweetVis(true),100);setTimeout(()=>{setPairsVis(true);setTxState("active");setTimerRunning(true);setTimerStart(Date.now());let si=0;const sn=()=>{if(si>=data.pairs.length){startNoiseFeed(data.noiseInterval);return;}const c=data.pairs[si];si++;if(pausedRef.current){pausedSpawnQueueRef.current.push(c);}else{setLiveFeed(p=>clampLiveFeed([c,...p]));setSpawned(p=>new Set([...p,c.id]));}const t=setTimeout(sn,data.spawnDelay);spawnRef.current.push(t);};sn();},400);},[clearAll,startNoiseFeed,startDiff,maxDiffCap,clampLiveFeed]);
   const cancelArm=useCallback(()=>{cancelAnimationFrame(armRafRef.current);clearTimeout(armTimeoutRef.current);armStartRef.current=null;setArmProgress(0);if(holsterPhaseRef.current==="arming")setHolsterPhase("idle");},[]);
   const startArming=useCallback(()=>{if(holsterPhaseRef.current!=="idle")return;setHolsterPhase("arming");SFX.arm();armStartRef.current=Date.now();const tick=()=>{if(!armStartRef.current)return;const el=Date.now()-armStartRef.current,prog=Math.min(el/CFG.holsterArm,1);setArmProgress(prog);if(prog<1){armRafRef.current=requestAnimationFrame(tick);}else{setHolsterPhase("armed");SFX.armed();armTimeoutRef.current=setTimeout(()=>launchRound(),200);}};armRafRef.current=requestAnimationFrame(tick);},[launchRound]);
   const handleHolsterEnter=useCallback(()=>{if(holsterPhaseRef.current==="idle")startArming();},[startArming]);
   const handleHolsterLeave=useCallback(()=>{if(holsterPhaseRef.current==="arming")cancelArm();},[cancelArm]);
-  const handlePauseEnter=useCallback(()=>{if(holsterPhaseRef.current!=="live"||revealedRef.current||pausedRef.current)return;setIsPaused(true);pausedRef.current=true;pauseStartedRef.current=Date.now();if(timerRunningRef.current)setTimerRunning(false);},[]);
-  const handlePauseLeave=useCallback(()=>{if(!pausedRef.current)return;const pausedFor=pauseStartedRef.current?Date.now()-pauseStartedRef.current:0;pausedRef.current=false;pauseStartedRef.current=null;setIsPaused(false);if(pausedSpawnQueueRef.current.length){const queued=pausedSpawnQueueRef.current;pausedSpawnQueueRef.current=[];setLiveFeed(p=>[...queued.slice().reverse(),...p]);setSpawned(p=>new Set([...p,...queued.map(c=>c.id)]));}if(txState==="active"&&timerStartRef.current!==null&&!revealedRef.current){setTimerStart(prev=>prev===null?prev:prev+pausedFor);setTimerRunning(true);}},[txState]);
+  const handlePauseEnter=useCallback(()=>{if(holsterPhaseRef.current!=="live"||revealedRef.current||pausedRef.current)return;setIsPaused(true);pausedRef.current=true;pauseStartedRef.current=Date.now();},[]);
+  const handlePauseLeave=useCallback(()=>{if(!pausedRef.current)return;pausedRef.current=false;pauseStartedRef.current=null;setIsPaused(false);if(pausedSpawnQueueRef.current.length){const queued=pausedSpawnQueueRef.current;pausedSpawnQueueRef.current=[];setLiveFeed(p=>clampLiveFeed([...queued.slice().reverse(),...p]));setSpawned(p=>new Set([...p,...queued.map(c=>c.id)]));}},[clampLiveFeed]);
   const finishRound=useCallback(ok=>{clearInterval(noiseRef.current);setIsPaused(false);pausedRef.current=false;pauseStartedRef.current=null;pausedSpawnQueueRef.current=[];if(!ok)setShowCorrect(true);setHolsterPhase("cooldown");setTimeout(()=>{setRoundNum(p=>p+1);setHolsterPhase("idle");setArmProgress(0);setShowCorrect(false);},ok?1000:2000);},[]);
-  const handleBuy=useCallback((coin,e)=>{if(revealed)return;SFX.click();if(txState==="waiting"||txState==="spawning"){clearAll();setTxState("penalty");setRevealed(true);setTimerRunning(false);setClickedId(coin.id);showFB("penalty");flash("red");shake();SFX.penalty();setStats(p=>({...p,streak:0,penalties:p.penalties+1}));setAttemptHistory(p=>[...p,{id:Date.now(),type:"penalty",rt:null,round:roundNumRef.current+1}]);finishRound(false);return;}if(txState!=="active")return;const pausedForCurrent=pausedRef.current&&pauseStartedRef.current?Date.now()-pauseStartedRef.current:0;const rt=Math.max(0,Date.now()-timerStart-pausedForCurrent);setTimerRunning(false);setRevealed(true);setClickedId(coin.id);clearAll();if(coin.isCorrect){setTxState("hit");showFB("hit",rt);flash("green");SFX.hit();setStats(p=>{const ns=p.streak+1;return{...p,score:p.score+1,streak:ns,bestStreak:Math.max(p.bestStreak,ns),bestTime:p.bestTime===null?rt:Math.min(p.bestTime,rt),lastTime:rt,hits:p.hits+1,times:[...p.times,rt]};});setAttemptHistory(p=>[...p,{id:Date.now(),type:"hit",rt,round:roundNumRef.current+1}]);finishRound(true);}else{setTxState("missed");showFB("wrong",rt);flash("red");shake();SFX.miss();setStats(p=>({...p,streak:0,misses:p.misses+1,lastTime:rt}));setAttemptHistory(p=>[...p,{id:Date.now(),type:"wrong",rt,round:roundNumRef.current+1}]);finishRound(false);}},[txState,revealed,timerStart,clearAll,showFB,flash,shake,finishRound]);
+  const handleBuy=useCallback((coin,e)=>{if(revealed)return;SFX.click();if(timerStart===null)return;const rt=Math.max(0,Date.now()-timerStart);setTimerRunning(false);setRevealed(true);setClickedId(coin.id);clearAll();if(coin.isCorrect){setTxState("hit");showFB("hit",rt);flash("green");SFX.hit();setStats(p=>{const ns=p.streak+1;return{...p,score:p.score+1,streak:ns,bestStreak:Math.max(p.bestStreak,ns),bestTime:p.bestTime===null?rt:Math.min(p.bestTime,rt),lastTime:rt,hits:p.hits+1,times:[...p.times,rt]};});setAttemptHistory(p=>[...p,{id:Date.now(),type:"hit",rt,round:roundNumRef.current+1}]);finishRound(true);}else{setTxState("missed");showFB("wrong",rt);flash("red");shake();SFX.miss();setStats(p=>({...p,streak:0,misses:p.misses+1,lastTime:rt}));setAttemptHistory(p=>[...p,{id:Date.now(),type:"wrong",rt,round:roundNumRef.current+1}]);finishRound(false);}},[revealed,timerStart,clearAll,showFB,flash,shake,finishRound]);
   const reset=useCallback(()=>{clearAll();cancelAnimationFrame(armRafRef.current);clearTimeout(armTimeoutRef.current);clearInterval(noiseRef.current);setStats({score:0,streak:0,bestStreak:0,bestTime:null,lastTime:null,hits:0,misses:0,penalties:0,times:[]});setRoundNum(0);roundNumRef.current=0;setRoundData(null);setSpawned(new Set());setTxState("idle");setRevealed(false);setClickedId(null);setFeedback(null);setScreenFlash(null);setScreenShake(false);setComboBurst(null);setTweetVis(false);setPairsVis(false);setTimerRunning(false);setTimerStart(null);setLiveFeed([]);setAttemptHistory([]);setHolsterPhase("idle");setArmProgress(0);setShowCorrect(false);setIsPaused(false);pausedRef.current=false;pauseStartedRef.current=null;pausedSpawnQueueRef.current=[];},[clearAll]);
   useEffect(()=>()=>{clearAll();cancelAnimationFrame(armRafRef.current);clearTimeout(armTimeoutRef.current);},[clearAll]);
   return{stats,roundData,spawned,txState,revealed,clickedId,feedback,screenFlash,screenShake,comboBurst,showCorrect,isPaused,tweetVis,pairsVis,timerRunning,timerStart,liveFeed,attemptHistory,holsterPhase,armProgress,mult,multLabel,multColor,pnl,difficulty,roundNum,handleHolsterEnter,handleHolsterLeave,handlePauseEnter,handlePauseLeave,handleBuy,reset};
@@ -378,6 +414,12 @@ function useGameEngine(startDiff=1,seed=null){
 ═══════════════════════════════════════════ */
 function GameView({engine,onExit,rightPanel}){
   const g=engine;
+  const [searchQuery,setSearchQuery]=useState("");
+  const normalizedSearch=searchQuery.trim().toLowerCase();
+  const visibleFeed=normalizedSearch?g.liveFeed.filter(coin=>{
+    const name=(coin?.name||"").toLowerCase();
+    return name.includes(normalizedSearch);
+  }):g.liveFeed;
   return(
     <div style={{height:"100%",display:"flex",flexDirection:"column",background:C.bg,fontFamily:"var(--mono)",color:C.text,overflow:"hidden",position:"relative"}} className={g.screenShake?"shake":""}>
       {g.screenFlash&&<div className="screen-flash" style={{background:g.screenFlash==="green"?`radial-gradient(ellipse at center,rgba(72,187,120,0.1) 0%,transparent 65%)`:`radial-gradient(ellipse at center,rgba(245,101,101,0.1) 0%,transparent 65%)`}}/>}
@@ -395,8 +437,6 @@ function GameView({engine,onExit,rightPanel}){
         <div style={{width:"37%",minWidth:300,maxWidth:460,borderRight:`1px solid ${C.border}`,display:"flex",flexDirection:"column",background:C.bg,flexShrink:0}}>
           <div className="col-header" style={{gap:8}}>
             <span style={{fontWeight:800,fontSize:12,color:C.text}}>𝕏 Tracker</span>
-            <div style={{flex:1}}/>
-            {["🔇","▽","📌","↗","✕"].map((s,i)=><span key={i} style={{color:C.textGhost,fontSize:10,cursor:"pointer",padding:"0 2px"}}>{s}</span>)}
           </div>
           <div style={{flex:1,overflowY:"auto"}}>{g.tweetVis&&g.roundData?<><XTweet data={g.roundData.tweet} isSignal animDelay={0}/>{g.roundData.fillers.map((ft,i)=><XTweet key={i} data={ft} isSignal={false} animDelay={300+i*350}/>)}</>:<div className="empty-msg">Arm the holster to<br/>start a round</div>}</div>
         </div>
@@ -414,10 +454,14 @@ function GameView({engine,onExit,rightPanel}){
           <div style={{display:"flex",alignItems:"center",padding:"5px 12px",borderBottom:`1px solid ${C.border}`,gap:8,flexShrink:0}}>
             <span style={{color:C.text,fontSize:10.5,fontWeight:700}}>New</span>
             <div style={{flex:1}}/>
-            <span style={{color:C.textDim,fontSize:10}}>Search</span>
-            {["⚡","8","≡","📈","🔇","▽"].map((s,i)=><span key={i} style={{color:C.textGhost,fontSize:9,cursor:"pointer",padding:"0 1px"}}>{s}</span>)}
+            <input
+              value={searchQuery}
+              onChange={e=>setSearchQuery(e.target.value)}
+              placeholder="Search"
+              style={{width:120,height:24,padding:"0 8px",borderRadius:6,border:`1px solid ${C.border}`,background:C.bgCard,color:C.text,fontSize:10,fontFamily:"var(--mono)",outline:"none"}}
+            />
           </div>
-          <div style={{flex:1,overflowY:"auto",position:"relative"}}>{g.pairsVis&&g.liveFeed.length>0?g.liveFeed.map(coin=><TokenRow key={coin.id} coin={coin} spawned={g.spawned.has(coin.id)} txState={g.txState} revealed={g.revealed} clickedId={g.clickedId} onBuy={g.handleBuy} showCorrect={g.showCorrect}/>):<div className="empty-msg">Tokens appear here<br/>once round is armed</div>}{g.feedback&&<div className="feedback-wrap"><div className={`feedback-pill ${g.feedback.type==="hit"?"fb-hit":"fb-miss"}`}>{g.feedback.type==="hit"?`SNIPED ${(g.feedback.rt/1000).toFixed(2)}s ✅`:g.feedback.type==="penalty"?"TOO EARLY ⛔":g.feedback.rt?`WRONG ${(g.feedback.rt/1000).toFixed(2)}s ❌`:"WRONG ❌"}</div></div>}</div>
+          <div style={{flex:1,overflowY:"auto",position:"relative"}}>{g.pairsVis&&visibleFeed.length>0?visibleFeed.map(coin=><TokenRow key={coin.id} coin={coin} spawned={g.spawned.has(coin.id)} txState={g.txState} revealed={g.revealed} clickedId={g.clickedId} onBuy={g.handleBuy} showCorrect={g.showCorrect}/>):g.pairsVis&&g.liveFeed.length>0&&normalizedSearch?<div className="empty-msg">No matches found</div>:<div className="empty-msg">Tokens appear here<br/>once round is armed</div>}{g.feedback&&<div className="feedback-wrap"><div className={`feedback-pill ${g.feedback.type==="hit"?"fb-hit":"fb-miss"}`}>{g.feedback.type==="hit"?`SNIPED ${(g.feedback.rt/1000).toFixed(2)}s ✅`:g.feedback.type==="penalty"?"TOO EARLY ⛔":g.feedback.rt?`WRONG ${(g.feedback.rt/1000).toFixed(2)}s ❌`:"WRONG ❌"}</div></div>}</div>
         </div>
         {/* COL3 */}
         <div style={{flex:1,display:"flex",flexDirection:"column",background:C.bg,position:"relative"}}>
@@ -436,12 +480,14 @@ function GameView({engine,onExit,rightPanel}){
 /* ═══════════════════════════════════════════
    PRACTICE MODE
 ═══════════════════════════════════════════ */
-function PracticeMode({startDiff=1,onSessionComplete}){
+function PracticeMode({startDiff=1,onSessionComplete,onStartDiffChange,onOpenProfile}){
   const[screen,setScreen]=useState("menu"); // menu | playing | summary
-  const engine=useGameEngine(startDiff);
+  const levelCap=startDiff===1?3:10;
+  const engine=useGameEngine(startDiff,null,levelCap);
   const summarySavedRef=useRef(false);
   const start=()=>{engine.reset();setScreen("playing");};
-  const practiceSteps=[["01","Hold HOLSTER 0.8s to arm",C.text],["02","Read signal tweet first",C.text],["03","Tap TX NOW on match",C.green],["04","Traps use partial matches",C.yellow],["05","Clicking during WAIT = penalty",C.red],["06","Streaks boost PnL to x3",C.orange]];
+  const practiceSteps=[["01","Hold HOLSTER 0.8s to arm",C.text],["02","Read signal tweet first",C.text],["03","Tap TX NOW on match",C.green],["04","Traps use partial matches",C.yellow],["05","Any wrong click = miss",C.red],["06","Streaks boost PnL to x3",C.orange]];
+  const levelOptions=[1,3,5,7,10];
   useEffect(()=>{
     if(screen==="menu"){summarySavedRef.current=false;return;}
     if(screen!=="summary"||summarySavedRef.current)return;
@@ -451,7 +497,12 @@ function PracticeMode({startDiff=1,onSessionComplete}){
       onSessionComplete?.(engine.stats);
     }
   },[screen,engine.stats,onSessionComplete]);
-  if(screen==="summary")return <SessionSummary stats={engine.stats} history={engine.attemptHistory} onBack={()=>{engine.reset();setScreen("menu");}}/>;
+  useEffect(()=>{
+    if(screen==="playing"&&levelCap===3&&engine.roundNum>=3){
+      setScreen("summary");
+    }
+  },[screen,levelCap,engine.roundNum]);
+  if(screen==="summary")return <SessionSummary stats={engine.stats} history={engine.attemptHistory} onBack={()=>{engine.reset();setScreen("menu");}} onProfile={onOpenProfile}/>;
   if(screen==="menu")return(
     <div className="menu-bg prac-page"><div className="grid-bg"/>
       <div className="menu-glow-orb green"/>
@@ -468,12 +519,22 @@ function PracticeMode({startDiff=1,onSessionComplete}){
           </p>
           {/* Stats row */}
           <div style={{display:"flex",width:"100%",maxWidth:320,background:`linear-gradient(145deg,${C.bgCard},${C.bgAlt})`,border:`1px solid ${C.border}`,borderRadius:14,overflow:"hidden"}}>
-            {[["Lv"+startDiff,"START LEVEL",C.green],["x3","MAX MULT",C.orange],["10","LEVELS",C.cyan]].map(([val,lbl,col],i,arr)=>(
+            {[["Lv"+startDiff,"START LEVEL",C.green],["x3","MAX MULT",C.orange],[`${levelCap}`,"LEVELS",C.cyan]].map(([val,lbl,col],i,arr)=>(
               <div key={lbl} style={{flex:1,padding:"16px 0",textAlign:"center",borderRight:i<arr.length-1?`1px solid ${C.border}`:"none"}}>
                 <div style={{fontSize:20,fontWeight:900,color:col,letterSpacing:-0.5}}>{val}</div>
                 <div style={{fontSize:8,color:C.textDim,letterSpacing:1.8,marginTop:4,fontWeight:600}}>{lbl}</div>
               </div>
             ))}
+          </div>
+          <div style={{width:"100%",maxWidth:320,marginTop:14}}>
+            <div style={{fontSize:8,color:C.textDim,letterSpacing:2,marginBottom:7}}>SELECT START LEVEL</div>
+            <div style={{display:"flex",gap:6}}>
+              {levelOptions.map((d)=>{const active=startDiff===d;const col=d>=8?C.red:d>=5?C.yellow:C.green;return(
+                <button key={d} onClick={()=>onStartDiffChange?.(d)} style={{flex:1,height:30,borderRadius:7,border:`1px solid ${active?col:C.border}`,background:active?`${col}18`:C.bgCard,color:active?col:C.textDim,fontSize:10,fontWeight:active?800:600,fontFamily:"var(--mono)",cursor:"pointer",transition:"all 0.15s"}}>
+                  Lv{d}
+                </button>
+              );})}
+            </div>
           </div>
         </div>
 
@@ -484,12 +545,12 @@ function PracticeMode({startDiff=1,onSessionComplete}){
             <div className="practice-steps">
               {practiceSteps.map(([n,t,c],i)=>(
                 <div key={i} className="practice-step" style={{animationDelay:`${100+i*60}ms`}}>
-                  <span style={{color:c,minWidth:22,flexShrink:0}}>{n}</span>
+                  <span className="practice-step-num" style={{color:c}}>{n}</span>
                   <span>{t}</span>
                 </div>
               ))}
             </div>
-            <div className="practice-card-foot">Speed beats hesitation.</div>
+            <div className="practice-card-foot">Speed beats hesitation</div>
           </div>
           <button onClick={start} className="btn-primary btn-green" style={{width:"100%",fontSize:14,padding:"16px 24px",letterSpacing:2.5,marginTop:4}}>
             Start Training →
@@ -506,7 +567,7 @@ function PracticeMode({startDiff=1,onSessionComplete}){
 ═══════════════════════════════════════════ */
 function OneVOneMode({onMatchComplete}){
   const[phase,setPhase]=useState("lobby");const[gameCode,setGameCode]=useState("");const[joinCode,setJoinCode]=useState("");const[isHost,setIsHost]=useState(false);const[playerName,setPlayerName]=useState("");const[opponentName,setOpponentName]=useState("");const[opponentStats,setOpponentStats]=useState(null);const[matchResult,setMatchResult]=useState(null);
-  const[bestOf,setBestOf]=useState(10);const[gameSeed,setGameSeed]=useState(null);const[isPublicLobby,setIsPublicLobby]=useState(true);const[publicLobbies,setPublicLobbies]=useState([]);const[loadingLobbies,setLoadingLobbies]=useState(false);
+  const[bestOf,setBestOf]=useState(10);const[gameSeed,setGameSeed]=useState(null);const[isPublicLobby,setIsPublicLobby]=useState(true);const[publicLobbies,setPublicLobbies]=useState([]);
   const[countdown,setCountdown]=useState(null);
   const countdownRef=useRef(null);
   const supabaseWarnedRef=useRef(false);const lobbyPollRef=useRef(null);
@@ -594,19 +655,75 @@ function OneVOneMode({onMatchComplete}){
       roundNum:data.round_num,
     };
   }
+  async function storageRemove(k){
+    if(!ensureSupabase())return;
+    const parsed=parseGameKey(k);
+    if(!parsed)return;
+    if(parsed.type==="game"){
+      const{error:statsError}=await supabase.from("duel_game_stats").delete().eq("game_code",parsed.code);
+      if(statsError)console.error("supabase storageRemove stats failed",statsError);
+      const{error}=await supabase.from("duel_games").delete().eq("code",parsed.code);
+      if(error)console.error("supabase storageRemove game failed",error);
+      return;
+    }
+    const{error}=await supabase.from("duel_game_stats").delete().eq("game_code",parsed.code).eq("player_role",parsed.role);
+    if(error)console.error("supabase storageRemove stats row failed",error);
+  }
 
   const fetchPublicLobbies=useCallback(async()=>{
     if(!ensureSupabase())return;
-    setLoadingLobbies(true);
     const{data,error}=await supabase.from("duel_games").select("code,host_id,host_name,best_of,created_at").eq("status","waiting").eq("is_public",true).is("guest_id",null).order("created_at",{ascending:false}).limit(20);
-    setLoadingLobbies(false);
     if(error){console.error("supabase fetch public lobbies failed",error);return;}
-    setPublicLobbies((data||[]).filter(l=>l.host_id!==playerId));
+    const next=(data||[]).filter(l=>l.host_id!==playerId);
+    setPublicLobbies(prev=>{
+      if(prev.length===next.length&&prev.every((p,i)=>p.code===next[i]?.code&&p.host_id===next[i]?.host_id&&p.host_name===next[i]?.host_name&&p.best_of===next[i]?.best_of))return prev;
+      return next;
+    });
   },[ensureSupabase,playerId]);
   const createGame=async()=>{const code=genCode();const name=playerName||"Player 1";const seed=Date.now();await storageSet(`game:${code}`,{code,host:{id:playerId,name},guest:null,status:"waiting",seed,bestOf,isPublic:isPublicLobby});resultSavedRef.current=false;setGameCode(code);setIsHost(true);setGameSeed(seed);setPhase("waiting");startPolling(code);};
   const joinGame=async(explicitCode=null)=>{const code=(explicitCode||joinCode).toUpperCase().trim();if(code.length!==6)return;const game=await storageGet(`game:${code}`);if(!game||game.status!=="waiting"){alert("Game not found or already started.");return;}if(game.host?.id===playerId){alert("You can't join your own lobby.");return;}const name=playerName||"Player 2";game.guest={id:playerId,name};game.status="ready";await storageSet(`game:${code}`,game);resultSavedRef.current=false;setJoinCode(code);setGameCode(code);setIsHost(false);setOpponentName(game.host.name);setGameSeed(game.seed);setBestOf(game.bestOf||10);setIsPublicLobby(!!game.isPublic);setPhase("waiting");startPolling(code);};
   const joinPublicLobby=async(code)=>{await joinGame(code);};
-  const startPolling=(code)=>{clearInterval(pollRef.current);pollRef.current=setInterval(async()=>{const game=await storageGet(`game:${code}`);if(!game)return;if(isHost&&game.guest)setOpponentName(game.guest.name);if(!isHost&&game.host)setOpponentName(game.host.name);if(game.seed)setGameSeed(game.seed);if(game.status==="countdown"&&!countdownRef.current){runCountdown();}if(game.status==="playing"&&phase!=="playing"&&!countdownRef.current){setPhase("playing");engine.reset();}const oppKey=isHost?`game:${code}:guest-stats`:`game:${code}:host-stats`;const os=await storageGet(oppKey);if(os)setOpponentStats(os);if(game.status==="finished"){setMatchResult({myScore:engine.stats.score,oppScore:os?os.score:0,win:engine.stats.score>(os?os.score:0)});setPhase("results");clearInterval(pollRef.current);}},800);};
+  const resetDuelView=()=>{
+    clearInterval(pollRef.current);
+    engine.reset();
+    resultSavedRef.current=false;
+    setPhase("lobby");
+    setGameCode("");
+    setJoinCode("");
+    setOpponentName("");
+    setOpponentStats(null);
+    setMatchResult(null);
+    setCountdown(null);
+    countdownRef.current=null;
+    setGameSeed(null);
+  };
+  const cleanupLobby=async(code)=>{
+    const normalizedCode=(code||"").toUpperCase().trim();
+    if(normalizedCode.length!==6)return;
+    const key=`game:${normalizedCode}`;
+    const game=await storageGet(key);
+    if(!game)return;
+    const amHost=game.host?.id===playerId;
+    const amGuest=game.guest?.id===playerId;
+    if(!amHost&&!amGuest)return;
+    if(amHost){
+      await storageRemove(key);
+      return;
+    }
+    if(amGuest){
+      game.guest=null;
+      game.status="waiting";
+      await storageSet(key,game);
+      await storageRemove(`game:${normalizedCode}:guest-stats`);
+    }
+  };
+  const backToLobby=async({skipCleanup=false}={})=>{
+    const leavingCode=gameCode;
+    clearInterval(pollRef.current);
+    if(!skipCleanup)await cleanupLobby(leavingCode);
+    resetDuelView();
+  };
+  const startPolling=(code)=>{clearInterval(pollRef.current);pollRef.current=setInterval(async()=>{const game=await storageGet(`game:${code}`);if(!game){backToLobby({skipCleanup:true});return;}if(isHost&&game.guest)setOpponentName(game.guest.name);if(!isHost&&game.host)setOpponentName(game.host.name);if(game.seed)setGameSeed(game.seed);if(game.status==="countdown"&&!countdownRef.current){runCountdown();}if(game.status==="playing"&&phase!=="playing"&&!countdownRef.current){setPhase("playing");engine.reset();}const oppKey=isHost?`game:${code}:guest-stats`:`game:${code}:host-stats`;const os=await storageGet(oppKey);if(os)setOpponentStats(os);if(game.status==="finished"){setMatchResult({myScore:engine.stats.score,oppScore:os?os.score:0,win:engine.stats.score>(os?os.score:0)});setPhase("results");clearInterval(pollRef.current);}},800);};
 
   const runCountdown=()=>{if(countdownRef.current)return;countdownRef.current=true;let n=3;setCountdown(n);SFX.countdown(n);const iv=setInterval(()=>{n--;setCountdown(n);SFX.countdown(n);if(n<=0){clearInterval(iv);setTimeout(()=>{setCountdown(null);countdownRef.current=null;setPhase("playing");engine.reset();},400);}},1000);};
 
@@ -614,8 +731,7 @@ function OneVOneMode({onMatchComplete}){
 
   useEffect(()=>{if(phase!=="playing"||!gameCode)return;const iv=setInterval(async()=>{const key=isHost?`game:${gameCode}:host-stats`:`game:${gameCode}:guest-stats`;await storageSet(key,{score:engine.stats.score,streak:engine.stats.streak,bestTime:engine.stats.bestTime,hits:engine.stats.hits,misses:engine.stats.misses,lastTime:engine.stats.lastTime,roundNum:engine.roundNum});},500);return()=>clearInterval(iv);},[phase,gameCode,isHost,engine.stats,engine.roundNum]);
   const endMatch=async()=>{const game=await storageGet(`game:${gameCode}`);if(game){game.status="finished";await storageSet(`game:${gameCode}`,game);}setPhase("results");clearInterval(pollRef.current);const oppKey=isHost?`game:${gameCode}:guest-stats`:`game:${gameCode}:host-stats`;const os=await storageGet(oppKey);setMatchResult({myScore:engine.stats.score,oppScore:os?os.score:0,win:engine.stats.score>(os?os.score:0)});};
-  const backToLobby=()=>{clearInterval(pollRef.current);engine.reset();resultSavedRef.current=false;setPhase("lobby");setGameCode("");setJoinCode("");setOpponentName("");setOpponentStats(null);setMatchResult(null);setCountdown(null);countdownRef.current=null;setGameSeed(null);};
-  useEffect(()=>{if(phase!=="lobby"){clearInterval(lobbyPollRef.current);return;}fetchPublicLobbies();lobbyPollRef.current=setInterval(fetchPublicLobbies,2500);return()=>clearInterval(lobbyPollRef.current);},[phase,fetchPublicLobbies]);
+  useEffect(()=>{if(phase!=="lobby"){clearInterval(lobbyPollRef.current);return;}fetchPublicLobbies();lobbyPollRef.current=setInterval(fetchPublicLobbies,5000);return()=>clearInterval(lobbyPollRef.current);},[phase,fetchPublicLobbies]);
   useEffect(()=>()=>clearInterval(pollRef.current),[]);
   useEffect(()=>()=>clearInterval(lobbyPollRef.current),[]);
   useEffect(()=>{
@@ -631,14 +747,13 @@ function OneVOneMode({onMatchComplete}){
     </div></div>);
 
   if(phase==="lobby")return(
-    <div className="menu-bg"><div className="grid-bg"/><div className="menu-inner" style={{maxWidth:560}}>
-      <div className="menu-glow-orb orange"/>
-      <div style={{fontSize:52,marginBottom:8,animation:"float 3s ease-in-out infinite"}}>⚔️</div>
+    <div className="menu-bg" style={{minHeight:"100%",height:"100%",justifyContent:"flex-start",paddingTop:36,paddingBottom:140,overflowY:"auto",overflowX:"hidden",backgroundImage:`linear-gradient(rgba(74,222,128,0.022) 1px,transparent 1px),linear-gradient(90deg,rgba(74,222,128,0.022) 1px,transparent 1px)`,backgroundSize:"60px 60px"}}><div className="menu-inner" style={{maxWidth:560,paddingBottom:180}}>
+      <div style={{fontSize:52,marginBottom:8}}>⚔️</div>
       <h1 className="title-text" style={{color:C.orange}}>1v1 DUEL</h1>
       <div style={{fontSize:10.5,color:C.textDim,letterSpacing:7,marginBottom:24,fontWeight:500}}>COMPETE HEAD TO HEAD</div>
       <div style={{marginBottom:16,opacity:0,animation:"slideUp 0.4s ease 100ms forwards"}}><div style={{fontSize:8,color:C.textDim,letterSpacing:2.5,marginBottom:6,textAlign:"left"}}>YOUR NAME</div><input value={playerName} onChange={e=>setPlayerName(e.target.value)} placeholder="Enter name..." className="input-field"/></div>
       <div style={{marginBottom:16,opacity:0,animation:"slideUp 0.4s ease 150ms forwards"}}><div style={{fontSize:8,color:C.textDim,letterSpacing:2.5,marginBottom:6,textAlign:"left"}}>FORMAT</div><div style={{display:"flex",gap:6}}>{[5,10,20].map(n=>{const ac=bestOf===n;return(<button key={n} onClick={()=>setBestOf(n)} style={{flex:1,padding:"8px 0",borderRadius:8,border:`1px solid ${ac?C.orange:C.border}`,background:ac?`${C.orange}12`:C.bgCard,color:ac?C.orange:C.textDim,fontSize:11,fontWeight:ac?800:600,fontFamily:"var(--mono)",cursor:"pointer"}}>Best of {n}</button>);})}</div></div>
-      <div className="glass-card" style={{marginBottom:14,opacity:0,animation:"slideUp 0.4s ease 200ms forwards"}}><div style={{fontSize:8.5,color:C.orange,fontWeight:700,letterSpacing:2.5,marginBottom:10}}>CREATE GAME</div><p style={{fontSize:11,color:C.textMuted,marginBottom:10,lineHeight:1.6}}>Create a room and share the code with your opponent.</p><label style={{display:"flex",alignItems:"center",gap:8,fontSize:10,color:C.textMuted,marginBottom:12,cursor:"pointer"}}><input type="checkbox" checked={isPublicLobby} onChange={e=>setIsPublicLobby(e.target.checked)} style={{accentColor:C.green}}/><span>Public lobby (appears in live list)</span></label><button onClick={createGame} className="btn-primary btn-orange">Create Room</button></div>
+      <div className="glass-card" style={{marginBottom:14,opacity:0,animation:"slideUp 0.4s ease 200ms forwards"}}><div style={{fontSize:8.5,color:C.orange,fontWeight:700,letterSpacing:2.5,marginBottom:10}}>CREATE GAME</div><p style={{fontSize:11,color:C.textMuted,marginBottom:10,lineHeight:1.6}}>Create a room and share the code with your opponent.</p><label style={{display:"flex",alignItems:"center",gap:8,fontSize:10,color:C.textMuted,marginBottom:12,cursor:"pointer"}}><input type="checkbox" checked={isPublicLobby} onChange={e=>setIsPublicLobby(e.target.checked)} style={{accentColor:C.green}}/><span>Public lobby (appears in live list)</span></label><button onClick={createGame} className="btn-primary btn-orange btn-static">Create Room</button></div>
       <div className="glass-card" style={{marginBottom:14,opacity:0,animation:"slideUp 0.4s ease 300ms forwards"}}>
         <div style={{fontSize:8.5,color:C.blue,fontWeight:700,letterSpacing:2.5,marginBottom:10}}>JOIN BY CODE</div>
         <div style={{display:"flex",gap:10,alignItems:"stretch"}}>
@@ -650,12 +765,12 @@ function OneVOneMode({onMatchComplete}){
             className="input-field"
             style={{flex:1,textAlign:"center",fontSize:22,fontWeight:900,letterSpacing:6,height:52,lineHeight:1,padding:"0 14px"}}
           />
-          <button onClick={joinGame} className="btn-primary btn-blue" style={{width:108,height:52,padding:0,fontSize:13,display:"inline-flex",alignItems:"center",justifyContent:"center",lineHeight:1}}>
+          <button onClick={joinGame} className="btn-primary btn-blue btn-static" style={{width:108,height:52,padding:0,fontSize:13,display:"inline-flex",alignItems:"center",justifyContent:"center",lineHeight:1}}>
             JOIN
           </button>
         </div>
       </div>
-      <div className="glass-card" style={{opacity:0,animation:"slideUp 0.4s ease 360ms forwards"}}><div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:10}}><div style={{fontSize:8.5,color:C.green,fontWeight:700,letterSpacing:2.5}}>PUBLIC LOBBIES</div><button onClick={fetchPublicLobbies} className="btn-ghost" style={{fontSize:8,padding:"4px 8px"}}>Refresh</button></div>{loadingLobbies&&publicLobbies.length===0?<div style={{fontSize:10,color:C.textGhost}}>Loading lobbies...</div>:publicLobbies.length===0?<div style={{fontSize:10,color:C.textGhost}}>No public lobbies right now.</div>:<div style={{display:"flex",flexDirection:"column",gap:8,maxHeight:220,overflowY:"auto"}}>{publicLobbies.map((l)=>(<div key={l.code} style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:10,padding:"8px 10px",border:`1px solid ${C.border}`,borderRadius:8,background:C.bgCard}}><div style={{minWidth:0}}><div style={{fontSize:11,color:C.text,fontWeight:700,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{l.host_name||"Host"}</div><div style={{fontSize:9,color:C.textDim,marginTop:2}}>Code {l.code} • Best of {l.best_of}</div></div><button onClick={()=>joinPublicLobby(l.code)} className="btn-primary btn-blue" style={{width:"auto",padding:"7px 12px",fontSize:10,letterSpacing:1}}>Join</button></div>))}</div>}</div>
+      <div className="glass-card" style={{marginBottom:18,opacity:0,animation:"slideUp 0.4s ease 360ms forwards"}}><div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:10}}><div style={{fontSize:8.5,color:C.green,fontWeight:700,letterSpacing:2.5}}>PUBLIC LOBBIES</div><button onClick={fetchPublicLobbies} className="btn-ghost" style={{fontSize:8,padding:"4px 8px"}}>Refresh</button></div>{publicLobbies.length===0?<div style={{fontSize:10,color:C.textGhost}}>No public lobbies right now.</div>:<div style={{display:"flex",flexDirection:"column",gap:8,maxHeight:220,overflowY:"auto"}}>{publicLobbies.map((l)=>(<div key={l.code} style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:10,padding:"8px 10px",border:`1px solid ${C.border}`,borderRadius:8,background:C.bgCard}}><div style={{minWidth:0}}><div style={{fontSize:11,color:C.text,fontWeight:700,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{l.host_name||"Host"}</div><div style={{fontSize:9,color:C.textDim,marginTop:2}}>Code {l.code} • Best of {l.best_of}</div></div><button onClick={()=>joinPublicLobby(l.code)} className="btn-primary btn-blue btn-static" style={{width:"auto",padding:"7px 12px",fontSize:10,letterSpacing:1}}>Join</button></div>))}</div>}</div>
     </div></div>);
 
   if(phase==="waiting")return(
@@ -685,12 +800,14 @@ function OneVOneMode({onMatchComplete}){
 /* ═══════════════════════════════════════════
    APP
 ═══════════════════════════════════════════ */
-function ProfileTab({session,stats,loading,msg,onRefresh}){
+function ProfileTab({session,stats,history,loading,msg,onRefresh}){
   const rounds=stats.practice_rounds;
   const practiceAcc=rounds>0?Math.round((stats.practice_hits/rounds)*100):0;
   const duelWinRate=stats.duel_matches>0?Math.round((stats.duel_wins/stats.duel_matches)*100):0;
   const avgDuelFor=stats.duel_matches>0?(stats.duel_score_for/stats.duel_matches).toFixed(1):"0.0";
   const username=session?.user?.user_metadata?.username||session?.user?.email?.split("@")[0]||"signed in";
+  const getOutcomeColor=(row)=>{if(row.mode==="practice")return C.blue;if(row.outcome==="win")return C.green;if(row.outcome==="loss")return C.red;return C.orange;};
+  const getOutcomeLabel=(row)=>{if(row.mode==="practice")return"SESSION";if(row.outcome==="win")return"WIN";if(row.outcome==="loss")return"LOSS";return"DRAW";};
 
   return(
     <div className="menu-bg practice-menu-bg">
@@ -702,7 +819,9 @@ function ProfileTab({session,stats,loading,msg,onRefresh}){
             <div style={{fontSize:10,color:C.textDim,letterSpacing:3,marginBottom:6}}>PLAYER PROFILE</div>
             <h2 style={{fontSize:34,fontWeight:900,color:C.text,letterSpacing:-1}}>{username}</h2>
           </div>
-          <button onClick={onRefresh} className="btn-ghost" style={{fontSize:10,padding:"8px 12px"}}>REFRESH</button>
+          <div style={{display:"flex",alignItems:"center",gap:8}}>
+            <button onClick={onRefresh} className="btn-ghost" style={{fontSize:10,padding:"8px 12px"}}>REFRESH</button>
+          </div>
         </div>
         {msg&&<div className="glass-card" style={{marginBottom:12,padding:"10px 12px",color:C.red,fontSize:10}}>{msg}</div>}
         {loading?<div className="glass-card" style={{fontSize:11,color:C.textDim}}>Loading stats...</div>:<>
@@ -720,7 +839,59 @@ function ProfileTab({session,stats,loading,msg,onRefresh}){
               </div>
             </div>
           </div>
+          <div className="glass-card" style={{padding:"18px 20px"}}>
+            <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:12}}>
+              <div style={{fontSize:9,color:C.cyan,letterSpacing:2.2,fontWeight:800}}>MATCH HISTORY</div>
+              <div style={{fontSize:10,color:C.textDim}}>{history.length} entries</div>
+            </div>
+            {history.length===0?<div style={{fontSize:11,color:C.textDim}}>No matches yet. Complete a practice run or duel to populate history.</div>:<div style={{display:"grid",gap:8,maxHeight:320,overflowY:"auto",paddingRight:2}}>
+              {history.map((row)=>{const isPractice=row.mode==="practice";const rt=row.best_time!==null?`${(row.best_time/1000).toFixed(3)}s`:"—";return(
+                <div key={row.id} style={{display:"grid",gridTemplateColumns:"auto 1fr auto",alignItems:"center",gap:12,padding:"10px 12px",borderRadius:8,border:`1px solid ${C.border}`,background:C.bgCard}}>
+                  <div style={{fontSize:9,fontWeight:800,letterSpacing:1.2,color:getOutcomeColor(row)}}>{getOutcomeLabel(row)}</div>
+                  <div style={{minWidth:0}}>
+                    <div style={{fontSize:11,color:C.text,fontWeight:700}}>{isPractice?`Practice • ${row.rounds||0} rounds • ${row.accuracy_pct??0}% accuracy`:`1v1 • ${row.score} - ${row.opponent_score??0}`}</div>
+                    <div style={{fontSize:9,color:C.textDim,marginTop:2}}>{isPractice?`Best RT ${rt} • Best streak ${row.best_streak||0}`:`Recorded ${formatHistoryDate(row.created_at)}`}</div>
+                  </div>
+                  <div style={{fontSize:9,color:C.textDim,textAlign:"right",whiteSpace:"nowrap"}}>{formatHistoryDate(row.created_at)}</div>
+                </div>
+              );})}
+            </div>}
+          </div>
         </>}
+      </div>
+    </div>
+  );
+}
+
+function ModePickerScreen({session,onSelect,onLogOut}){
+  const username=session?.user?.user_metadata?.username||session?.user?.email?.split("@")[0]||"signed in";
+  const pickerAccent=C.yellow;
+  const cards=[
+    {key:"practice",label:"Practice",desc:"Train reaction speed solo and improve consistency.",icon:"⚡"},
+    {key:"1v1",label:"1v1 Duel",desc:"Face another player with synchronized rounds.",icon:"⚔️"},
+    {key:"profile",label:"Profile",desc:"Check your stats, records, and progression.",icon:"📊"},
+  ];
+
+  return(
+    <div className="menu-bg mode-picker-page">
+      <div className="grid-bg"/>
+      <div className="menu-glow-orb yellow"/>
+      <div className="mode-picker-shell">
+        <div className="mode-picker-head">
+          <div className="mode-picker-kicker">WELCOME BACK</div>
+          <h2 className="title-text mode-picker-title">{username}</h2>
+          <p className="mode-picker-subtitle">Choose how you want to start. We will remember this and open it automatically next time.</p>
+        </div>
+        <div className="mode-picker-grid">
+          {cards.map((card)=>(
+            <button key={card.key} onClick={()=>onSelect(card.key)} className="mode-picker-card" style={{"--pick-accent":pickerAccent}}>
+              <div className="mode-picker-icon">{card.icon}</div>
+              <div className="mode-picker-label">{card.label}</div>
+              <div className="mode-picker-desc">{card.desc}</div>
+            </button>
+          ))}
+        </div>
+        <button onClick={onLogOut} className="btn-ghost" style={{fontSize:9,padding:"7px 10px",marginTop:16}}>LOGOUT</button>
       </div>
     </div>
   );
@@ -730,6 +901,7 @@ function AuthScreen(){
   const[mode,setMode]=useState("login");
   const[username,setUsername]=useState("");
   const[password,setPassword]=useState("");
+  const[accessCode,setAccessCode]=useState("");
   const[busy,setBusy]=useState(false);
   const[msg,setMsg]=useState("");
   const isLogin=mode==="login";
@@ -744,17 +916,45 @@ function AuthScreen(){
     const email=toInternalEmail(username);
     if(!email||!password){setMsg("Username and password are required.");return;}
     if(username.trim().length<3){setMsg("Username must be at least 3 characters.");return;}
+    const normalizedAccessCode=accessCode.trim().toUpperCase();
+    if(!normalizedAccessCode){setMsg(isLogin?"Access code is required to login.":"Access code is required to create an account.");return;}
     setBusy(true);setMsg("");
     try{
       if(isLogin){
         const{error}=await supabase.auth.signInWithPassword({email,password});
         if(error)throw error;
+        const { data: isValid, error: verifyError } = await supabase.rpc("verify_login_access_code", { input_code: normalizedAccessCode });
+        if(verifyError)throw verifyError;
+        if(!isValid){
+          await supabase.auth.signOut();
+          throw new Error("Invalid access code for this account.");
+        }
       }else{
-        const{error}=await supabase.auth.signUp({email,password,options:{data:{username:username.trim()}}});
+        const { data: codeAvailable, error: checkError } = await supabase.rpc("check_signup_access_code", { input_code: normalizedAccessCode });
+        if(checkError)throw checkError;
+        if(!codeAvailable)throw new Error("Invalid or already used access code.");
+        const{error}=await supabase.auth.signUp({
+          email,
+          password,
+          options:{
+            data:{
+              username:username.trim(),
+              access_code:normalizedAccessCode,
+            },
+          },
+        });
         if(error)throw error;
         setMsg("Account created.");
+        setAccessCode("");
       }
-    }catch(e){setMsg(e?.message||"Auth request failed.");}
+    }catch(e){
+      const message=e?.message||"Auth request failed.";
+      if(message==="Database error saving new user"){
+        setMsg("Signup failed. Access code may be invalid/used, or auth trigger is missing on this Supabase project.");
+      }else{
+        setMsg(message);
+      }
+    }
     finally{setBusy(false);}
   };
 
@@ -776,7 +976,7 @@ function AuthScreen(){
         <div className="auth-form-card">
           <div className="auth-form-head">
             <div style={{fontSize:11,color:C.textDim,letterSpacing:3,fontWeight:700}}>ACCOUNT ACCESS</div>
-            <div style={{fontSize:9,color:C.textGhost,letterSpacing:1.5}}>FREE TO JOIN</div>
+            <div style={{fontSize:9,color:C.textGhost,letterSpacing:1.5}}>CODE REQUIRED</div>
           </div>
           <div className="auth-mode-switch">
             <button onClick={()=>setMode("login")} className="auth-mode-btn" style={{background:isLogin?`linear-gradient(135deg,${C.green},${C.greenDim})`:"transparent",color:isLogin?C.bg:C.textDim,borderColor:isLogin?"transparent":C.border}}>Login</button>
@@ -784,11 +984,12 @@ function AuthScreen(){
           </div>
           <div style={{fontSize:8,color:C.textDim,letterSpacing:2.5,marginBottom:6}}>USERNAME</div>
           <input value={username} onChange={e=>setUsername(e.target.value)} placeholder="yourname" className="input-field auth-input" style={{marginBottom:8}}/>
-          <div className="auth-email-hint">{username.trim()?toInternalEmail(username):""}</div>
           <div style={{fontSize:8,color:C.textDim,letterSpacing:2.5,marginTop:12,marginBottom:6}}>PASSWORD</div>
           <input value={password} onChange={e=>setPassword(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!busy)submit();}} type="password" placeholder="••••••••" className="input-field auth-input" style={{marginBottom:10}}/>
+          <div style={{fontSize:8,color:C.textDim,letterSpacing:2.5,marginTop:2,marginBottom:6}}>ACCESS CODE</div>
+          <input value={accessCode} onChange={e=>setAccessCode(e.target.value.toUpperCase())} onKeyDown={e=>{if(e.key==="Enter"&&!busy)submit();}} placeholder="ALPHA001" className="input-field auth-input" style={{marginBottom:10,textTransform:"uppercase"}}/>
           <div style={{fontSize:9,color:C.textGhost,marginBottom:12}}>Use letters, numbers, and underscore in username.</div>
-          {msg&&<div className="auth-msg" style={{color:msg.toLowerCase().includes("failed")||msg.toLowerCase().includes("required")?C.red:C.green,borderColor:msg.toLowerCase().includes("failed")||msg.toLowerCase().includes("required")?`${C.red}35`:`${C.green}35`,background:msg.toLowerCase().includes("failed")||msg.toLowerCase().includes("required")?`${C.red}10`:`${C.green}10`}}>{msg}</div>}
+          {msg&&<div className="auth-msg" style={{color:msg.toLowerCase().includes("failed")||msg.toLowerCase().includes("required")||msg.toLowerCase().includes("invalid")||msg.toLowerCase().includes("already used")?C.red:C.green,borderColor:msg.toLowerCase().includes("failed")||msg.toLowerCase().includes("required")||msg.toLowerCase().includes("invalid")||msg.toLowerCase().includes("already used")?`${C.red}35`:`${C.green}35`,background:msg.toLowerCase().includes("failed")||msg.toLowerCase().includes("required")||msg.toLowerCase().includes("invalid")||msg.toLowerCase().includes("already used")?`${C.red}10`:`${C.green}10`}}>{msg}</div>}
           <button onClick={submit} disabled={busy} className={`btn-primary ${isLogin?"btn-green":"btn-blue"}`} style={{opacity:busy?0.7:1,cursor:busy?"default":"pointer",marginTop:msg?0:4}}>
             {busy?"Submitting...":isLogin?"Login":"Create Account"}
           </button>
@@ -801,10 +1002,12 @@ function AuthScreen(){
 export default function App(){
   const router=useRouter();
   const[tab,setTab]=useState("practice");
+  const[entryScreen,setEntryScreen]=useState("loading"); // loading | mode-picker | app
   const[startDiff,setStartDiff]=useState(1);
   const[session,setSession]=useState(null);
   const[authReady,setAuthReady]=useState(false);
   const[profileStats,setProfileStats]=useState(EMPTY_PROFILE_STATS);
+  const[matchHistory,setMatchHistory]=useState([]);
   const[profileLoading,setProfileLoading]=useState(false);
   const[profileMsg,setProfileMsg]=useState("");
 
@@ -815,33 +1018,71 @@ export default function App(){
       if(active){
         const nextSession=data?.session||null;
         setSession(nextSession);
-        if(!nextSession)setProfileStats(EMPTY_PROFILE_STATS);
+        if(!nextSession){
+          setProfileStats(EMPTY_PROFILE_STATS);
+          setMatchHistory([]);
+          setEntryScreen("loading");
+        }
         setAuthReady(true);
       }
     });
     const { data: authListener } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession||null);
-      if(!nextSession)setProfileStats(EMPTY_PROFILE_STATS);
+      if(!nextSession){
+        setProfileStats(EMPTY_PROFILE_STATS);
+        setMatchHistory([]);
+        setEntryScreen("loading");
+      }
     });
     return()=>{active=false;authListener?.subscription?.unsubscribe();};
   },[]);
 
-  const loadProfileStats=useCallback(async()=>{
+  const loadProfileStats=useCallback(async({resolveEntry=false}={})=>{
     if(!supabase||!session?.user?.id)return;
     setProfileLoading(true);
     setProfileMsg("");
-    const { data, error } = await supabase
-      .from("player_profiles")
-      .select(PROFILE_SELECT)
-      .eq("user_id", session.user.id)
-      .maybeSingle();
+    const [{ data, error }, { data: historyData, error: historyError }] = await Promise.all([
+      supabase
+        .from("player_profiles")
+        .select(PROFILE_SELECT)
+        .eq("user_id", session.user.id)
+        .maybeSingle(),
+      supabase
+        .from("player_match_history")
+        .select(HISTORY_SELECT)
+        .eq("user_id", session.user.id)
+        .order("created_at", { ascending: false })
+        .limit(30),
+    ]);
     setProfileLoading(false);
-    if(error){setProfileMsg("Could not load profile stats.");return;}
-    setProfileStats(normalizeProfileStats(data||{}));
+    if(error){
+      setProfileMsg("Could not load profile stats.");
+      setProfileStats(EMPTY_PROFILE_STATS);
+      setMatchHistory([]);
+      if(resolveEntry)setEntryScreen("mode-picker");
+      return;
+    }
+    if(historyError){
+      setProfileMsg("Could not load full match history.");
+      setMatchHistory([]);
+    }else{
+      setMatchHistory(historyData||[]);
+    }
+    const nextStats=normalizeProfileStats(data||{});
+    setProfileStats(nextStats);
+    if(resolveEntry){
+      if(data){
+        setTab(normalizeModeKey(nextStats.preferred_mode));
+        setEntryScreen("app");
+      }else{
+        setEntryScreen("mode-picker");
+      }
+    }
   },[session]);
 
   useEffect(()=>{
-    if(session?.user?.id)loadProfileStats();
+    if(!session?.user?.id)return;
+    loadProfileStats({resolveEntry:true});
   },[session,loadProfileStats]);
 
   const updateProfileStats=useCallback(async(updater)=>{
@@ -863,9 +1104,39 @@ export default function App(){
     setProfileStats(next);
   },[session]);
 
+  const insertMatchHistory=useCallback(async(entry)=>{
+    if(!supabase||!session?.user?.id)return;
+    const payload={user_id:session.user.id,...entry};
+    const { data, error } = await supabase
+      .from("player_match_history")
+      .insert(payload)
+      .select(HISTORY_SELECT)
+      .single();
+    if(error){
+      setProfileMsg("Could not save match history.");
+      return;
+    }
+    if(data){
+      setMatchHistory((prev)=>[data,...prev].slice(0,30));
+    }
+  },[session]);
+
+  const savePreferredMode=useCallback(async(mode)=>{
+    const normalized=normalizeModeKey(mode);
+    await updateProfileStats((prev)=>({...prev,preferred_mode:normalized}));
+  },[updateProfileStats]);
+
+  const handleModeSelect=useCallback((mode,{persist=true,openApp=false}={})=>{
+    const normalized=normalizeModeKey(mode);
+    setTab(normalized);
+    if(openApp)setEntryScreen("app");
+    if(persist)void savePreferredMode(normalized);
+  },[savePreferredMode]);
+
   const recordPracticeSession=useCallback(async(practiceStats)=>{
     const rounds=practiceStats.hits+practiceStats.misses+practiceStats.penalties;
     if(rounds<=0)return;
+    const accuracy=Math.round((practiceStats.hits/rounds)*100);
     await updateProfileStats((prev)=>({
       ...prev,
       practice_sessions:prev.practice_sessions+1,
@@ -876,11 +1147,22 @@ export default function App(){
       practice_best_time:practiceStats.bestTime===null?prev.practice_best_time:prev.practice_best_time===null?practiceStats.bestTime:Math.min(prev.practice_best_time,practiceStats.bestTime),
       practice_best_streak:Math.max(prev.practice_best_streak,practiceStats.bestStreak||0),
     }));
-  },[updateProfileStats]);
+    await insertMatchHistory({
+      mode:"practice",
+      outcome:"session",
+      score:practiceStats.hits||0,
+      opponent_score:null,
+      rounds,
+      accuracy_pct:accuracy,
+      best_time:practiceStats.bestTime??null,
+      best_streak:practiceStats.bestStreak||0,
+    });
+  },[updateProfileStats,insertMatchHistory]);
 
   const recordDuelMatch=useCallback(async(result)=>{
     const isDraw=result.myScore===result.oppScore;
     const isWin=result.myScore>result.oppScore;
+    const outcome=isDraw?"draw":isWin?"win":"loss";
     await updateProfileStats((prev)=>({
       ...prev,
       duel_matches:prev.duel_matches+1,
@@ -891,32 +1173,39 @@ export default function App(){
       duel_score_against:prev.duel_score_against+result.oppScore,
       duel_best_score:Math.max(prev.duel_best_score,result.myScore),
     }));
-  },[updateProfileStats]);
+    await insertMatchHistory({
+      mode:"1v1",
+      outcome,
+      score:result.myScore||0,
+      opponent_score:result.oppScore||0,
+      rounds:null,
+      accuracy_pct:null,
+      best_time:null,
+      best_streak:null,
+    });
+  },[updateProfileStats,insertMatchHistory]);
 
   const logOut=async()=>{if(supabase)await supabase.auth.signOut();};
 
   if(!authReady)return(<div className="menu-bg"><div className="grid-bg"/><div style={{position:"relative",zIndex:1,color:C.textDim,fontSize:12,letterSpacing:2}}>LOADING AUTH...</div><style>{CSS}</style></div>);
   if(!session)return(<><AuthScreen/><style>{CSS}</style></>);
+  if(entryScreen==="loading")return(<div className="menu-bg"><div className="grid-bg"/><div style={{position:"relative",zIndex:1,color:C.textDim,fontSize:12,letterSpacing:2}}>LOADING PROFILE...</div><style>{CSS}</style></div>);
+  if(entryScreen==="mode-picker")return(<><ModePickerScreen session={session} onSelect={(mode)=>handleModeSelect(mode,{persist:true,openApp:true})} onLogOut={logOut}/><style>{CSS}</style></>);
 
   return(
     <div style={{height:"100vh",display:"flex",flexDirection:"column",background:C.bg,fontFamily:"var(--mono)",overflow:"hidden"}}>
       {/* TAB BAR */}
       <div className="tab-bar">
-        <button className="tab-logo tab-logo-btn" onClick={()=>router.push("/")} aria-label="Go to home page"><img src="/logo.png" alt="" style={{height:22,width:"auto",display:"block"}}/><span style={{color:C.text,fontWeight:900,letterSpacing:1.5}}>TRENCHES</span></button>
+        <button className="tab-logo tab-logo-btn" onClick={()=>router.push("/")} aria-label="Go to home page"><img src="/logo.png" alt="" style={{height:40,width:"auto",display:"block"}}/></button>
         {[["practice","Practice",C.green],["1v1","1v1",C.orange]].map(([key,label,accent])=>{
           const active=tab===key;
-          return(<button key={key} onClick={()=>setTab(key)} className={`tab-btn ${active?"tab-active":""}`} style={{"--accent":accent}}>{active&&<span className="tab-dot" style={{background:accent,boxShadow:`0 0 8px ${accent}50`}}/>}{label}</button>);
+          return(<button key={key} onClick={()=>handleModeSelect(key)} className={`tab-btn ${active?"tab-active":""}`} style={{"--accent":accent}}>{active&&<span className="tab-dot" style={{background:accent,boxShadow:`0 0 8px ${accent}50`}}/>}{label}</button>);
         })}
-        {/* Difficulty selector in tab bar when Practice is active */}
-        {tab==="practice"&&<div style={{display:"flex",alignItems:"center",gap:3,marginLeft:14,paddingLeft:14,borderLeft:`1px solid ${C.border}`}}>
-          <span style={{fontSize:8,color:C.textDim,letterSpacing:1.5,marginRight:4}}>LVL</span>
-          {[1,3,5,7,10].map(d=>{const ac=startDiff===d;const col=d>=8?C.red:d>=5?C.yellow:C.green;return(<button key={d} onClick={()=>setStartDiff(d)} style={{width:28,height:22,borderRadius:5,border:`1px solid ${ac?col:C.border}`,background:ac?`${col}18`:"transparent",color:ac?col:C.textGhost,fontSize:9,fontWeight:ac?800:500,fontFamily:"var(--mono)",cursor:"pointer",transition:"all 0.15s",padding:0}}>{d}</button>);})}
-        </div>}
         <div style={{flex:1}}/>
         <div style={{display:"flex",alignItems:"center",gap:8,height:31,padding:"0 8px",border:`1px solid ${C.border}`,borderRadius:8,background:C.bgCard,marginRight:10,marginBottom:-1}}>
           <span style={{display:"flex",alignItems:"center",height:"100%",fontSize:9,lineHeight:1,color:C.textDim,maxWidth:180,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{session?.user?.user_metadata?.username||session?.user?.email?.split("@")[0]||"signed in"}</span>
           <button
-            onClick={()=>setTab("profile")}
+            onClick={()=>handleModeSelect("profile")}
             className="btn-ghost"
             style={{display:"flex",alignItems:"center",justifyContent:"center",height:20,fontSize:8,lineHeight:1,padding:"0 8px",borderColor:tab==="profile"?`${C.blue}66`:C.border,color:tab==="profile"?C.blue:C.textDim}}
           >
@@ -927,7 +1216,7 @@ export default function App(){
         <span style={{fontSize:8,color:C.textGhost,letterSpacing:2.5}}>v3.0</span>
       </div>
       <div style={{flex:1,overflow:"hidden",minHeight:0}}>
-        {tab==="practice"?<PracticeMode startDiff={startDiff} onSessionComplete={recordPracticeSession}/>:tab==="1v1"?<OneVOneMode onMatchComplete={recordDuelMatch}/>:<ProfileTab session={session} stats={profileStats} loading={profileLoading} msg={profileMsg} onRefresh={loadProfileStats}/>}
+        {tab==="practice"?<PracticeMode startDiff={startDiff} onSessionComplete={recordPracticeSession} onStartDiffChange={setStartDiff} onOpenProfile={()=>handleModeSelect("profile")}/>:tab==="1v1"?<OneVOneMode onMatchComplete={recordDuelMatch}/>:<ProfileTab session={session} stats={profileStats} history={matchHistory} loading={profileLoading} msg={profileMsg} onRefresh={loadProfileStats}/>}
       </div>
       <style>{CSS}</style>
     </div>
@@ -949,15 +1238,16 @@ const CSS=`
   .grid-bg::after{content:'';position:absolute;inset:0;
     background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     opacity:0.022;mix-blend-mode:overlay;pointer-events:none;}
+  .grid-bg-lite::after{display:none;}
 
   /* ── Tab Bar ── */
-  .tab-bar{display:flex;align-items:center;padding:0 20px;height:50px;
+  .tab-bar{display:flex;align-items:center;padding:0 20px;height:56px;
     background:linear-gradient(180deg,${C.bgAlt} 0%,${C.bg} 100%);
     border-bottom:1px solid ${C.border};flex-shrink:0;z-index:20;gap:2px;position:relative;}
   .tab-bar::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
     background:linear-gradient(90deg,transparent 5%,${C.green}28 40%,${C.green}28 60%,transparent 95%);
     pointer-events:none;}
-  .tab-logo{display:flex;align-items:center;gap:8px;margin-right:24px;font-size:13px;font-weight:900;color:${C.text};letter-spacing:1px;}
+  .tab-logo{display:flex;align-items:center;gap:0;margin-right:24px;font-size:13px;font-weight:900;color:${C.text};letter-spacing:1px;}
   .tab-logo-btn{background:transparent;border:none;padding:0;cursor:pointer;transition:opacity 0.2s;}
   .tab-logo-btn:hover{opacity:0.75;}
   .tab-btn{padding:10px 22px;background:transparent;border:none;border-bottom:2px solid transparent;
@@ -994,6 +1284,44 @@ const CSS=`
     animation:breathe 6s ease-in-out infinite;}
   .menu-glow-orb.green{background:${C.green};}
   .menu-glow-orb.orange{background:${C.orange};}
+  .menu-glow-orb.yellow{background:${C.yellow};opacity:0.1;}
+
+  .mode-picker-page{padding:26px 20px;}
+  .mode-picker-shell{position:relative;z-index:1;width:min(980px,100%);display:flex;flex-direction:column;align-items:center;text-align:center;}
+  .mode-picker-head{margin-bottom:22px;}
+  .mode-picker-kicker{font-size:10px;color:${C.yellow};letter-spacing:3px;margin-bottom:8px;font-weight:700;text-shadow:0 0 12px rgba(251,191,36,0.25);}
+  .mode-picker-title{font-size:38px;letter-spacing:-1.2px;margin-bottom:10px;color:${C.text};text-shadow:0 0 24px rgba(251,191,36,0.16);}
+  .mode-picker-subtitle{font-size:12px;color:${C.textMuted};line-height:1.75;max-width:560px;margin:0 auto;}
+  .mode-picker-snapshot{width:min(780px,100%);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:12px;}
+  .mode-snapshot-item{padding:12px 10px;border-radius:12px;border:1px solid ${C.border};background:linear-gradient(145deg,${C.bgCard},${C.bgAlt});text-align:center;}
+  .mode-snapshot-label{font-size:8px;letter-spacing:1.6px;color:${C.textDim};margin-bottom:6px;}
+  .mode-snapshot-value{font-size:17px;font-weight:900;color:${C.text};font-family:var(--mono);}
+  .mode-recommend-card{width:min(780px,100%);padding:11px 13px;border:1px solid ${C.border};border-radius:12px;background:linear-gradient(145deg,rgba(251,191,36,0.08),rgba(251,191,36,0.03));margin-bottom:12px;text-align:left;}
+  .mode-recommend-title{font-size:10px;letter-spacing:1.6px;color:${C.yellow};font-weight:800;margin-bottom:4px;}
+  .mode-recommend-reason{font-size:11px;color:${C.textMuted};line-height:1.6;}
+  .mode-continue-card{width:min(780px,100%);padding:14px 14px;border:1px solid ${C.border};border-radius:14px;background:linear-gradient(145deg,${C.bgCard},${C.bgAlt});margin-bottom:14px;text-align:left;}
+  .mode-continue-label{font-size:8px;letter-spacing:2px;color:${C.textDim};margin-bottom:6px;}
+  .mode-continue-copy{font-size:12px;color:${C.textMuted};line-height:1.65;margin-bottom:12px;}
+  .mode-continue-copy b{color:${C.text};font-weight:800;}
+  .mode-continue-actions{display:flex;gap:10px;align-items:center;}
+  .mode-continue-btn{width:auto;padding:10px 14px;font-size:10px;letter-spacing:1.2px;}
+  .mode-choose-btn{font-size:9px;padding:8px 10px;}
+  .mode-picker-grid{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;}
+  .mode-picker-card{
+    font-family:var(--mono);
+    text-align:left;background:linear-gradient(145deg,${C.bgCard} 0%,${C.bgAlt} 100%);
+    border:1px solid ${C.border};border-radius:16px;padding:18px 16px;cursor:pointer;
+    box-shadow:0 8px 32px rgba(0,0,0,0.24),inset 0 1px 0 rgba(255,255,255,0.03);
+    transition:transform 0.18s ease,border-color 0.18s ease,box-shadow 0.18s ease;
+  }
+  .mode-picker-card:hover{
+    transform:translateY(-2px);
+    border-color:color-mix(in srgb,var(--pick-accent) 48%,${C.border});
+    box-shadow:0 12px 34px color-mix(in srgb,var(--pick-accent) 16%, transparent),0 8px 32px rgba(0,0,0,0.24);
+  }
+  .mode-picker-icon{font-size:22px;line-height:1;margin-bottom:12px;color:var(--pick-accent);text-shadow:0 0 12px color-mix(in srgb,var(--pick-accent) 35%, transparent);}
+  .mode-picker-label{font-size:14px;font-weight:900;letter-spacing:0.6px;color:${C.text};margin-bottom:7px;}
+  .mode-picker-desc{font-size:11px;line-height:1.65;color:${C.textMuted};}
 
   /* ── Practice Menu (2-col layout) ── */
   .prac-page{justify-content:center;padding:24px 32px;}
@@ -1021,11 +1349,11 @@ const CSS=`
     padding:32px 30px;}
   .practice-card-title{font-size:10px;color:${C.green};font-weight:800;letter-spacing:3.5px;text-transform:uppercase;margin-bottom:18px;}
   .practice-steps{display:grid;grid-template-columns:1fr;row-gap:14px;justify-items:center;}
-  .practice-step{display:flex;align-items:center;justify-content:center;gap:10px;font-size:13.5px;line-height:1.55;
-    color:${C.textMuted};opacity:0;animation:slideUp 0.35s ease forwards;text-align:center;max-width:420px;}
-  .practice-step span:first-child{flex-shrink:0;transform:none;}
+  .practice-step{display:flex;align-items:center;justify-content:flex-start;gap:10px;font-size:13.5px;line-height:1.55;
+    color:${C.textMuted};opacity:0;animation:slideUp 0.35s ease forwards;text-align:left;max-width:420px;width:fit-content;min-width:330px;}
+  .practice-step-num{width:30px;flex-shrink:0;text-align:right;font-variant-numeric:tabular-nums;letter-spacing:0.4px;}
   .practice-card-foot{margin-top:18px;padding-top:14px;border-top:1px solid ${C.border};
-    font-size:10px;letter-spacing:1.5px;color:${C.textGhost};text-transform:uppercase;}
+    font-size:10px;letter-spacing:1.5px;color:${C.textMuted};text-transform:uppercase;}
   .btn-primary.practice-start-btn{width:min(260px,100%);font-size:13px;padding:12px 12px;letter-spacing:2px;}
 
   /* ── Auth ── */
@@ -1078,6 +1406,9 @@ const CSS=`
     animation:shimmer 3.5s ease-in-out infinite;pointer-events:none;}
   .btn-primary:hover{transform:translateY(-2px);}
   .btn-primary:active{transform:scale(0.97)!important;}
+  .btn-static::before{display:none;}
+  .btn-static:hover{transform:none;}
+  .btn-static:active{transform:none!important;}
   .btn-green{background:linear-gradient(135deg,${C.green},${C.greenDim});
     box-shadow:0 4px 24px rgba(74,222,128,0.2),inset 0 1px 0 rgba(255,255,255,0.12);}
   .btn-green:hover{box-shadow:0 8px 48px rgba(74,222,128,0.38),inset 0 1px 0 rgba(255,255,255,0.12);filter:brightness(1.06);}
@@ -1132,6 +1463,11 @@ const CSS=`
 
   /* ── Responsive ── */
   @media (max-width:860px){
+    .mode-picker-snapshot{grid-template-columns:1fr;max-width:560px;}
+    .mode-continue-actions{flex-direction:column;align-items:stretch;}
+    .mode-continue-btn,.mode-choose-btn{width:100%;}
+    .mode-picker-grid{grid-template-columns:1fr;max-width:560px;margin:0 auto;}
+    .mode-picker-title{font-size:32px;}
     .prac-shell{grid-template-columns:1fr;gap:28px;}
     .prac-brand{align-items:center;text-align:center;}
     .auth-shell{grid-template-columns:1fr;max-width:560px;}
